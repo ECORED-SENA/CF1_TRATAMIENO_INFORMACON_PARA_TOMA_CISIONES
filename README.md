@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Tratamiento de la información y toma de decisiones**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF1_TRATAMIENO_INFORMACON_PARA_TOMA_DECISIONES/](https://ecored-sena.github.io/CF1_TRATAMIENO_INFORMACON_PARA_TOMA_DECISIONES/)
 
 #
 

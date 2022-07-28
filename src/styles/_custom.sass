@@ -1,19 +1,340 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/banner-interno.svg")!important
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+    color: #FFFFFF
+
+.bloque-texto-g__img 
+    width: 42%
+    @media screen and ( max-width: 992px )
+      width: 100%
+
+.bloque-texto-g__texto 
+    width: 71%
+    @media screen and ( max-width: 992px )
+      width: 100%
+
+.etiqueta
+    color: #12263F
+    background-color: #8CE3BD
+
+.up
+  z-index: 2 !important
+
+.color-fondo
+  position: relative
+  &:before
+    content: ''
+    display: block
     position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    top: -14%
+    bottom: -10%
+    left: -4%
+    right: 49%
+  &__texto
+    position: relative
+    *
+      display: inline
+
+  &.bg-color
+    &:before
+      background-color: #E5FFF4
+
+.bg_cajon-color1
+  .color-fondo.bg-color:before 
+    background-color: #E3FBFF!important
+    bottom: -29%
+    left: -2%
+    right: 58%
+
+.bg_cajon-color2
+  .color-fondo.bg-color:before 
+    background-color: #E3FBFF!important
+    top: -11%
+    bottom: -11%
+    left: -2%
+    right: 58%
+
+.bg_cajon-color3
+  .color-fondo.bg-color:before 
+    background-color: #E3FBFF!important
+    bottom: -29%
+    left: -2%
+    right: 68%
+
+.bg_cajon-color4
+  .color-fondo.bg-color:before 
+    background-color: #E3FBFF!important
+    bottom: -20%
+    left: -2%
+    right: 64%
+    @media screen and ( max-width: 992px )
+      bottom: -9%
+      left: -3%
+      right: -1%
+      top: -15px
+
+.bg_cajon-color5
+  .color-fondo.bg-color:before 
+    background-color: #E5FFF4!important
+    bottom: -14%
+    top: -23px
+    left: -2%
+    right: 64%
+    @media screen and ( max-width: 992px )
+      bottom: -9%
+      left: -3%
+      right: -1%
+      top: -15px
+
+.bg_cajon-color6
+  .color-fondo.bg-color:before 
+    background-color: #FFF7D6!important
+    bottom: -14%
+    top: -23px
+    left: -2%
+    right: 64%
+    @media screen and ( max-width: 992px )
+      bottom: -5%
+      left: -3%
+      right: -1%
+      top: -15px
+
+.img-t
+  width: auto
+  height: auto  
+
+.tarjeta.color-acento-botones 
+    background-color: #E5FFF4
+    border-radius: 0px
+
+.tarjeta.color-acento-contenido 
+    background-color: #C2F4FC
+    border-radius: 0px
+
+.bg_1
+  background-color: #05339E
+  
+.fa-caret-right:before 
+    color: #13B770
+    font-size: 33px
+    margin-left: 15px
+
+.m_block
+  margin-block: auto
+
+.mt_1
+  margin-top: 0.6em!important
+
+.bg_slyder
+  background-color: #E5FFF4
+  border-radius: 15px
+
+.color_slyder-a_botones
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs 
+    background-color: #EECF52
+    background-image: url("../assets/curso/tema1/img18.svg")!important
+
+.slyder-a__tipo-b .slyder-a__btn--sigt 
+    transform: rotate(0deg)
+
+.slyder-a__tipo-b .slyder-a__btn--atrs 
+    transform: rotate(180deg)
+
+.slyder-a__tipo-b
+  bottom: -5%
+  @media screen and ( max-width: 992px )
+      bottom: -3%
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+      bottom: 8%
+
+.slyder-a__bullets__item 
+    margin: 0px 10px
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+        margin: 0px 5px
+    @media screen and ( max-width: 992px )
+        margin: 0px 1px;
+
+.fa-check:before 
+    color: #13B770
+
+.lista-ol li, .lista-ol--cuadro li, .lista-ul li, .lista-ul--separador li, .lista-ul--color li
+    margin-bottom: 3px
+
+.cajon.color-acento-contenido
+  &:before 
+    width: 43px
+
+.bg_2
+  background-color: #D6FFED
+  height: 245px
+
+.bg_3
+  background-color: #FFF8D9
+  height: 245px
+
+.mt_2
+  margin-top: 2.5rem!important
+
+.heigth_1
+  height: 326px
+  @media screen and ( max-width: 992px )
+    height: 430px
+
+  
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+    background-color: #5ED1A9
+    color: #fff!important
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title 
+    background-color: #E0FFF2
+
+.linea-tiempo-d__item__content__slot 
+    background-color: #E0FFF2
+
+.linea-tiempo-d__item__dots:after 
+    border-left: 5px dotted #13B770
+
+.marginb-1
+  margin-bottom: 10%
+
+.m_bloque-imgreves
+  .bloque-texto-g__img
+    left: 58%!important
+    @media screen and ( max-width: 992px ) 
+      left: 0%!important
+
+.m_bloque-textoreves1
+  .bloque-texto-g__texto 
+    right: 28%!important
+    width: 72%
+    @media screen and ( max-width: 992px ) 
+      right: 0%!important
+      width: auto
+
+.bloque-texto-g.color-primario
+    background-color: #05339E
+
+.tarjeta-slide.color-acento-contenido .tarjeta-slide__img 
+    margin-right: -75px
+
+.tarjeta-slide.color-primario .tarjeta-slide__img 
+    margin-right: -75px
+  
+.padding_1
+  padding: 2.5rem !important
+
+.mb_1
+  margin-bottom: 5rem !important
+
+.img-num1
     position: absolute
-    top: 51%
-    right: 30%
+    width: 100px
+    display: block
+    transform: translateX(150%)
+    margin: 16px auto
+    z-index: 2
 
+.tabs-b__tab 
+    border-right: 4px solid #13B770
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
+.img-infografica.color-secundario .img-infografica__item__dot:before
+    background-color: transparent
 
-  100%
-    transform: translateY(0px)
+.img-infografica.color-secundario .img-infografica__item__dot:after
+  background-color: #F8EBB5
+    
+.img-infografica.color-secundario .img-infografica__item__numero
+    color: #1A1A52
+    font-size: 34px
+
+.tarjeta.color-acento-botones 
+    background-color: #FFF9E3
+    border-radius: 7px
+
+.tarjeta--azul 
+    background-color: #F6F6F6
+
+.tarjeta--azul.acordion__activo
+    background-color: #E8E8E8
+
+.acordion__accion__btn--a
+    background-color: #EECF52!important
+
+.bg_slyder2
+  background-color: #1A1A52
+  border-radius: 30px
+
+.color2_slyder-a_botones
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs 
+    background-color: #EECF52
+  .slyder-a__tipo-b .slyder-a__btn--sigt 
+    transform: rotate(-90deg)
+    border: 1px solid #EECF52
+  .slyder-a__tipo-b .slyder-a__btn--atrs 
+    transform: rotate(90deg)
+    border: 1px solid #EECF52
+  .slyder-a__bullets__item 
+    background-color: #EECF52
+    border: 1px solid #707070
+  .slyder-a__bullets__item--active 
+    background-color: #13B770
+
+.cajon.color-acento-botones 
+    background-color: #EECF52
+    &::before
+      background-color: #13B770
+      
+.color_tar-imginfografica-t4
+  background-color: #DEE4F0!important
+
+.bg_4
+  background-color: #F4FFFA
+
+.pasos-a__linea__esquina__linea 
+    border-radius: 0px
+
+.pasos-a.color-acento-contenido .pasos-a__circle div 
+    color: #FFFFFF
+
+.bg_5
+  background-color: #F3F9FF
+  border-radius: 29px
+
+.bg_color1
+  background-color: #D8FFEE
+  z-index: 0
+
+.bg_color2
+  background-color: #D1F9FF
+
+.h-503
+  height: 500px
+
+.mt_textslyder
+  margin-top: 6rem
+
+.img-slyder
+    position: absolute
+    width: 100px
+    display: block
+    transform: translateX(100%)
+    margin: -1%
+    z-index: 2
+    @media screen and ( max-width: 992px )
+      margin: -3%
+      transform: translateX(90%)
+
+.slyder-f__btn i 
+    color: #EECF52
+
+.bg_6
+  background-color: #EECF52
+  width: 100%
+  @media screen and ( max-width: 992px )
+    width: 75%
+    margin-inline: 12%
+
+.bg_color3
+    background-color: #90FACC
+    border-radius: 0px
