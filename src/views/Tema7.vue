@@ -31,29 +31,29 @@
 
     h5.mb-5 Algunos de los temas cubiertos por las normas se seguridad y salud en el trabajo son los siguientes:
 
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-      .tarjeta.bg_color1.p-3.p-lg-4.h-503
-        img.img-slyder(src='@/assets/curso/tema7/img01.svg')
-        .row.justify-content-center.mb-3
-          .col-10.mt_textslyder           
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
+      .tarjeta-avatar
+        img.img-t.mx-auto(src='@/assets/curso/tema7/img01.svg' alt='AvatarTop')
+        .tarjeta.bg_color1.h-500
+          .text-black.p-5
             p Es responsabilidad del empleador asegurarse de que los trabajadores cuenten con el equipo de protección personal requerido para trabajar de manera segura. Según el trabajo y el entorno laboral, esto puede incluir dispositivos de protección contra caídas, cascos, ropa de alta visibilidad o guantes de seguridad.
 
-      .tarjeta.bg_color1.p-4.h-503
-        img.img-slyder(src='@/assets/curso/tema7/img02.svg')
-        .row.justify-content-center.mb-3
-          .col-10.mt_textslyder
+      .tarjeta-avatar
+        img.img-t.mx-auto(src='@/assets/curso/tema7/img02.svg' alt='AvatarTop')
+        .tarjeta.bg_color1.h-500
+          .text-black.p-5
             p Se debe garantizar la operación segura del equipo de trabajo, los procedimientos de seguridad garantizan que los empleados puedan usar maquinaria pesada, herramientas eléctricas y otros equipos de trabajo con un riesgo mínimo de lesiones. Esto incluye no solo el manejo adecuado del equipo, sino también inspecciones y mantenimientos regulares para garantizar que funcione de manera óptima.
 
-      .tarjeta.bg_color1.p-4.h-503
-        img.img-slyder(src='@/assets/curso/tema7/img03.svg')
-        .row.justify-content-center.mb-3
-          .col-10.mt_textslyder            
+      .tarjeta-avatar
+        img.img-t.mx-auto(src='@/assets/curso/tema7/img03.svg' alt='AvatarTop')
+        .tarjeta.bg_color1.h-500
+          .text-black.p-5            
             p Mantener la hidratación, dado que están en el trabajo durante largos períodos de tiempo y los trabajadores corren el riesgo de deshidratarse si no se les proporciona agua potable limpia. Si bien esto afecta a todos los trabajadores, es especialmente importante para aquellos que realizan un trabajo físico intenso, usan equipo de protección personal pesado o trabajan en ambientes con altas temperaturas.
 
-      .tarjeta.bg_color1.p-3.p-lg-4.h-503
-        img.img-slyder(src='@/assets/curso/tema7/img04.svg')
-        .row.justify-content-center.mb-3
-          .col-10.mt_textslyder           
+      .tarjeta-avatar
+        img.img-t.mx-auto(src='@/assets/curso/tema7/img04.svg' alt='AvatarTop')
+        .tarjeta.bg_color1.h-500
+          .text-black.p-5          
             p Buenos movimientos corporales, pues los trastornos musculoesqueléticos son un tipo extremadamente común de lesión en el lugar de trabajo. Para prevenirlos, los trabajadores deben seguir las mejores prácticas ergonómicas. Esto incluye técnicas seguras de levantamiento, buena postura y evitar movimientos repetitivos mientras realiza sus tareas laborales.
 
     h5.mb-5 A continuación, se mencionan las normas más relevantes impuestas en Colombia relacionadas con este fin: 

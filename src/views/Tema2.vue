@@ -70,11 +70,51 @@
         .col-lg-8
           h5.text-center A continuación, se presentan los tipos herramientas tecnológicas que pueden ayudar al desarrollo y crecimiento de en los contextos empresariales, con el fin de ahorrar tiempo y dinero:
 
-      .row.justify-content-center
+      .row.justify-content-center.mb-5
         .col-lg-6
-          figure
-            img(src='@/assets/curso/tema2/img04.svg')
+          ImagenInfografica.color-secundario.mb-5
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/tema2/img04.svg', alt='Texto que describa la imagen')
 
+            .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="25.8%" y="20%")
+              p <b>Herramientas de gestión de tareas:</b> son una forma fácil y rentable para ahorrar tiempo y dinero, pues permite rastrear las tareas digitalmente. 
+              p Las herramientas de administración de tareas en línea como Asana y Trello puede ayudar a gestionar las listas de tareas pendientes, el progreso del proyecto y los calendarios. Permite la configuración de recordatorios y actualizaciones automáticos, estas también sirven como herramientas de colaboración y trabajo en equipo, en el tablero se puede visualizar lo pendiente, lo asignado, los responsables y los avances.
+
+            .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="42%" y="20%")
+              p <b>Herramientas de gestión de tareas:</b> son una forma fácil y rentable para ahorrar tiempo y dinero, pues permite rastrear las tareas digitalmente. 
+              p Las herramientas de administración de tareas en línea como Asana y Trello puede ayudar a gestionar las listas de tareas pendientes, el progreso del proyecto y los calendarios. Permite la configuración de recordatorios y actualizaciones automáticos, estas también sirven como herramientas de colaboración y trabajo en equipo, en el tablero se puede visualizar lo pendiente, lo asignado, los responsables y los avances.
+
+            .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="58%" y="20%")
+              p <b>Correo electrónico y marketing social:</b> los sistemas de marketing por correo electrónico permiten mantener informados a los suscriptores acerca de las noticias sobre el negocio e informar sobre las ofertas y promociones. También permiten enviar un boletín informativo por correo electrónico las redes sociales de forma automática. 
+
+            .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="74.5%" y="20%")
+              p <b>Herramientas de programación de redes sociales:</b> estas herramientas han tomado gran relevancia en los último tiempos, permitiendo la programación controlada en las redes sociales, programando las publicaciones con anticipación e indicando las fechas y horas deseadas, para que se publique de forma automática.
+            
+            .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="25.8%" y="40%")
+              p <b>Programación de reuniones:</b> estas permiten establecer la programación de reuniones, algunas de estas herramientas pueden ayudar a la automatización en el proceso de configuración de reuniones, creando el enlace y donde los integrantes del la reunión pueden elegir entre los horarios disponibles para reunirse.
+
+            .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="42%" y="40%")
+              p <b>Obtención de firmas electrónicas:</b> estas son muy usadas actualmente, especialmente cuando se requiere la firma en contratos y acuerdos, permitiendo cargar el documento, realizar las firmas, agregar la dirección de correo electrónico correcta y quedando en el sistema el control y registro.
+
+            .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="58%" y="40%")
+              p <b>Gestión de relaciones con los clientes:</b> estas ayudan a realizar el seguimiento de los clientes potenciales, actuales y anteriores desde la primera interacción a través de embudos de marketing y ventas. También puede proporcionar herramientas para nutrir esas relaciones con los contactos por puntos de datos específicos, como la región o el tipo de producto que compraron. De esa manera, sabrá a quién dirigirse con mensajes de seguimiento para referencias o negocios. 
+
+            .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="74.5%" y="40%")
+              p <b>Colaboración de documentos:</b> permitiendo colaborar con otros, asegurando que todos trabajen desde la misma versión del mismo documento, trabajo en tiempo real con los demás, para sus interno o con los clientes.
+
+            .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="25.8%" y="60%")
+              p <b>Programa de contabilidad:</b> estos permiten realizar seguimiento de los ingresos y gastos, la mayoría incluye herramientas para manejar todas sus tareas financieras, como facturar, pagar a proveedores y crear informes de gastos. Algunos incluso pueden ayudar a presentar los impuestos y compartir documentos con el contador.
+            
+            .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="42%" y="60%")
+              p <b>Aplicaciones para tomar notas:</b> El uso de aplicaciones para tomar notas le permite documentar sus tareas personales y profesionales en todos sus dispositivos. Puede escribirlos, establecer recordatorios y marcarlos como completos cuando hayan terminado. Estas herramientas también son excelentes para anotar ideas rápidas.
+
+            .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="58%" y="60%")
+              p <b>Plataformas de almacenamiento en la nube:</b> es un sistema de almacenamiento en la nube que permite que los archivos sean accesibles para todos los empleados, sin importar dónde se encuentren. Algunas plataformas son colaborativas, lo que le permitiendo editar archivos directamente en tiempo real juntos a través de la nube.
+            
+            .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="74.5%" y="60%")
+              p <b>Colaboración de documentos:</b> permitiendo colaborar con otros, asegurando que todos trabajen desde la misma versión del mismo documento, trabajo en tiempo real con los demás, para sus interno o con los clientes.
+   
       .row.mb-5
         .col-lg-3.col-xl-4.col-xxl-3
           .bg_1

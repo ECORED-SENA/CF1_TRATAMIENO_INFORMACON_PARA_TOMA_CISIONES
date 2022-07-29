@@ -48,43 +48,42 @@
 
     p.mb-5 Los sistemas de gestión de bases de datos se pueden clasificar en función de una variedad de criterios, como el modelo de datos, la distribución de la base de datos o el número de usuarios, los tipos más utilizados son relacionales, distribuidos, jerárquicos, orientados a objetos y de red. Se presentan a continuación: 
 
-
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-      .tarjeta.bg_color1.p-3.p-lg-4.h-503
-        img.img-slyder(src='@/assets/curso/tema6/img03.svg')
-        .row.justify-content-center.mb-3
-          .col-10.mt_textslyder           
-            h4.mb-4 Sistema de gestión de bases de datos distribuidas
-            p Es un conjunto de bases de datos interrelacionadas lógicamente distribuidas en una red administrada por una aplicación de base de datos centralizada. Este tipo de DBMS sincroniza los datos periódicamente y garantiza que cualquier cambio en los datos se actualice universalmente en la base de datos.
-
-      .tarjeta.bg_color2.p-4.h-503
-        img.img-slyder(src='@/assets/curso/tema6/img04.svg')
-        .row.justify-content-center.mb-3
-          .col-10.mt_textslyder
-            h4.mb-4 Sistema de gestión de base de datos jerárquica
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
+      .tarjeta-avatar
+        img.img-t.mx-auto(src='@/assets/curso/tema6/img03.svg' alt='AvatarTop')
+        .tarjeta.bg_color1.h-500
+          .text-black.p-5
+            h4 Sistema de gestión de bases de datos distribuidas
+            p  Es un conjunto de bases de datos interrelacionadas lógicamente distribuidas en una red administrada por una aplicación de base de datos centralizada. Este tipo de DBMS sincroniza los datos periódicamente y garantiza que cualquier cambio en los datos se actualice universalmente en la base de datos.
+      
+      .tarjeta-avatar
+        img.img-t.mx-auto(src='@/assets/curso/tema6/img04.svg' alt='AvatarTop')
+        .tarjeta.bg_color2.h-500
+          .text-black.p-5
+            h4 Sistema de gestión de base de datos jerárquica
             p En estas se organizan los datos del modelo en una estructura similar a un árbol. El almacenamiento de datos es un formato de arriba hacia abajo o de abajo hacia arriba y se representa mediante una relación padre-hijo.
 
-      .tarjeta.bg_color1.p-4.h-503
-        img.img-slyder(src='@/assets/curso/tema6/img05.svg')
-        .row.justify-content-center.mb-3
-          .col-10.mt_textslyder            
-            h4.mb-4 Sistema de gestión de base de datos de red
+      .tarjeta-avatar
+        img.img-t.mx-auto(src='@/assets/curso/tema6/img05.svg' alt='AvatarTop')
+        .tarjeta.bg_color1.h-500
+          .text-black.p-5
+            h4 Sistema de gestión de base de datos de red
             p El modelo de base de datos en red aborda la necesidad de relaciones más complejas al permitir varios padres. Las entidades se organizan en un gráfico al que se puede acceder a través de varias rutas.
 
-      .tarjeta.bg_color2.p-3.p-lg-4.h-503
-        img.img-slyder(src='@/assets/curso/tema6/img06.svg')
-        .row.justify-content-center.mb-3
-          .col-10.mt_textslyder           
-            h4.mb-4 Sistema de gestión de bases de datos relacionales
+      .tarjeta-avatar
+        img.img-t.mx-auto(src='@/assets/curso/tema6/img06.svg' alt='AvatarTop')
+        .tarjeta.bg_color2.h-500
+          .text-black.p-5
+            h4 Sistema de gestión de bases de datos relacionales
             p Son el modelo de datos más popular debido a su interfaz fácil de usar, se basa en la normalización de datos en las filas y columnas de las tablas. Esta es una opción viable cuando se necesita un sistema de almacenamiento de datos que sea escalable, flexible y capaz de administrar mucha información.
 
-      .tarjeta.bg_color1.p-4.h-503
-        img.img-slyder(src='@/assets/curso/tema6/img07.svg')
-        .row.justify-content-center.mb-3
-          .col-10.mt_textslyder          
-            h4.mb-4 Sistema de gestión de base de datos orientado a objetos
+      .tarjeta-avatar
+        img.img-t.mx-auto(src='@/assets/curso/tema6/img07.svg' alt='AvatarTop')
+        .tarjeta.bg_color1.h-500
+          .text-black.p-5
+            h4 Sistema de gestión de base de datos orientado a objetos
             p Estos almacenan datos en objetos, en lugar de filas y columnas. Se basa en la programación orientada a objetos (POO) que permite que los objetos tengan miembros como campos, propiedades y métodos.
-    
+       
     Separador
 
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
