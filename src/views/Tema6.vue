@@ -33,7 +33,7 @@
       h2 6.1	Métodos técnicos y sistemas de ordenación
 
     span.etiqueta <b>Los sistemas de gestión de bases de datos (DBMS) son </b>
-    | sistemas de software que se utilizan para almacenar, recuperar y ejecutar consultas sobre datos, sirven como interfaz entre un usuario final y una base de datos, permitiendo a los usuarios crear, leer, actualizar y eliminar datos en la base de datos.
+    | sistemas de <em>software</em> que se utilizan para almacenar, recuperar y ejecutar consultas sobre datos, sirven como interfaz entre un usuario final y una base de datos, permitiendo a los usuarios crear, leer, actualizar y eliminar datos en la base de datos.
 
     p.mb-5.mt-4 En estos se administran los datos, el motor de la base de datos y el esquema de la base de datos, lo que permite que los usuarios y otros programas manipulen o extraigan los datos. Esto ayuda a proporcionar seguridad de datos, integridad de datos, concurrencia y procedimientos uniformes de administración de datos.
 
@@ -163,7 +163,7 @@
 
             .row.justify-content-center
               .col-lg-10
-                | Pueden almacenar los datos en un formato al que solo se puede acceder fácilmente mediante un único tipo de software propietario, arriesgándose a la pérdida efectiva de esos datos si el software ya no es compatible.
+                | Pueden almacenar los datos en un formato al que solo se puede acceder fácilmente mediante un único tipo de <em>software</em> propietario, arriesgándose a la pérdida efectiva de esos datos si el <em>software</em> ya no es compatible.
             
             .row.justify-content-center
               .col-lg-10

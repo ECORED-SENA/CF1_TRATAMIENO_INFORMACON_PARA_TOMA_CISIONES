@@ -35,26 +35,30 @@
       .tarjeta-avatar
         img.img-t.mx-auto(src='@/assets/curso/tema7/img01.svg' alt='AvatarTop')
         .tarjeta.bg_color1.h-500
-          .text-black.p-5
-            p Es responsabilidad del empleador asegurarse de que los trabajadores cuenten con el equipo de protección personal requerido para trabajar de manera segura. Según el trabajo y el entorno laboral, esto puede incluir dispositivos de protección contra caídas, cascos, ropa de alta visibilidad o guantes de seguridad.
+          .text-black.p-4.p-xl-3.p-xxl-4
+            h4.mt-4 Equipos de protección
+            p.mt-4.mt-lg-0 Es responsabilidad del empleador asegurarse de que los trabajadores cuenten con el equipo de protección personal requerido para trabajar de manera segura. Según el trabajo y el entorno laboral, esto puede incluir dispositivos de protección contra caídas, cascos, ropa de alta visibilidad o guantes de seguridad.
 
       .tarjeta-avatar
         img.img-t.mx-auto(src='@/assets/curso/tema7/img02.svg' alt='AvatarTop')
         .tarjeta.bg_color1.h-500
-          .text-black.p-5
-            p Se debe garantizar la operación segura del equipo de trabajo, los procedimientos de seguridad garantizan que los empleados puedan usar maquinaria pesada, herramientas eléctricas y otros equipos de trabajo con un riesgo mínimo de lesiones. Esto incluye no solo el manejo adecuado del equipo, sino también inspecciones y mantenimientos regulares para garantizar que funcione de manera óptima.
+          .text-black.p-4.p-xl-3.p-xxl-4
+            h4.mt-4 Procedimientos de seguridad
+            p.mt-4.mt-lg-0 Se debe garantizar la operación segura del equipo de trabajo, los procedimientos de seguridad garantizan que los empleados puedan usar maquinaria pesada, herramientas eléctricas y otros equipos de trabajo con un riesgo mínimo de lesiones. Esto incluye no solo el manejo adecuado del equipo, sino también inspecciones y mantenimientos regulares para garantizar que funcione de manera óptima.
 
       .tarjeta-avatar
         img.img-t.mx-auto(src='@/assets/curso/tema7/img03.svg' alt='AvatarTop')
         .tarjeta.bg_color1.h-500
-          .text-black.p-5            
-            p Mantener la hidratación, dado que están en el trabajo durante largos períodos de tiempo y los trabajadores corren el riesgo de deshidratarse si no se les proporciona agua potable limpia. Si bien esto afecta a todos los trabajadores, es especialmente importante para aquellos que realizan un trabajo físico intenso, usan equipo de protección personal pesado o trabajan en ambientes con altas temperaturas.
+          .text-black.p-4.p-xl-3.p-xxl-4        
+            h4.mt-4 Hidratación
+            p.mt-4.mt-lg-0 Mantener la hidratación, dado que están en el trabajo durante largos períodos de tiempo y los trabajadores corren el riesgo de deshidratarse si no se les proporciona agua potable limpia. Si bien esto afecta a todos los trabajadores, es especialmente importante para aquellos que realizan un trabajo físico intenso, usan equipo de protección personal pesado o trabajan en ambientes con altas temperaturas.
 
       .tarjeta-avatar
         img.img-t.mx-auto(src='@/assets/curso/tema7/img04.svg' alt='AvatarTop')
         .tarjeta.bg_color1.h-500
-          .text-black.p-5          
-            p Buenos movimientos corporales, pues los trastornos musculoesqueléticos son un tipo extremadamente común de lesión en el lugar de trabajo. Para prevenirlos, los trabajadores deben seguir las mejores prácticas ergonómicas. Esto incluye técnicas seguras de levantamiento, buena postura y evitar movimientos repetitivos mientras realiza sus tareas laborales.
+          .text-black.p-4.p-xl-3.p-xxl-4
+            h4.mt-4 Movimientos corporales        
+            p.mt-4.mt-lg-0 Buenos movimientos corporales, pues los trastornos musculoesqueléticos son un tipo extremadamente común de lesión en el lugar de trabajo. Para prevenirlos, los trabajadores deben seguir las mejores prácticas ergonómicas. Esto incluye técnicas seguras de levantamiento, buena postura y evitar movimientos repetitivos mientras realiza sus tareas laborales.
 
     h5.mb-5 A continuación, se mencionan las normas más relevantes impuestas en Colombia relacionadas con este fin: 
 
@@ -64,7 +68,7 @@
           .row(titulo="2012" subtitulo="")
             .col-lg-2.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema7/img12.png', alt='Texto que describa la imagen')
+                img.img-t.mx-auto(src='@/assets/curso/tema7/img12.png', alt='Texto que describa la imagen')
             .col-lg-6
               p <b>Resolución 1409</b>
               p En esta se establece el reglamento de seguridad para protección contra caídas en trabajo de alturas, esta rige para todos los actores que estén vinculados de manera formal e informal a una empresa o sean independientes que desempeñan labores a una altura superior a 1.5 metros, igualmente esta norma aplica para actividades de atención de emergencias y rescate y actividades lúdicas, artísticas, deportivas o de alta montaña.
@@ -72,7 +76,7 @@
           .row(titulo="2013" subtitulo="")
             .col-lg-2.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema7/img13.png', alt='Texto que describa la imagen')
+                img.img-t.mx-auto(src='@/assets/curso/tema7/img13.png', alt='Texto que describa la imagen')
             .col-lg-6
               p <b>Resolución 90708</b>
               p A través de esta se estipula el reglamento técnico de instalaciones eléctricas con cumplimiento obligatorio sobre todo el territorio nacional.
@@ -80,7 +84,7 @@
           .row(titulo="2014" subtitulo="")
             .col-lg-2.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema7/img14.png', alt='Texto que describa la imagen')
+                img.img-t.mx-auto(src='@/assets/curso/tema7/img14.png', alt='Texto que describa la imagen')
             .col-lg-6
               p <b>Resolución 1565</b>
               p Está expide la guía metodológica para la elaboración del plan estratégico de seguridad vial.
@@ -94,7 +98,7 @@
           .row(titulo="2015" subtitulo="")
             .col-lg-2.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema7/img15.png', alt='Texto que describa la imagen')
+                img.img-t.mx-auto(src='@/assets/curso/tema7/img15.png', alt='Texto que describa la imagen')
             .col-lg-6
               p <b>Decreto 1072</b>
               p Es este se expide el decreto único reglamentario del sector del trabajo, donde se formula y adoptan las políticas, planes generales, programas y proyectos para el trabajo, el respeto de los derechos fundamentales, las garantías de los trabajadores, el fortalecimiento, promoción y protección de las actividades de la economía solidaria y el trabajo decente.
@@ -102,7 +106,7 @@
           .row(titulo="2016" subtitulo="")
             .col-lg-2.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema7/img16.png', alt='Texto que describa la imagen')
+                img.img-t.mx-auto(src='@/assets/curso/tema7/img16.png', alt='Texto que describa la imagen')
             .col-lg-6
               p <b>Decreto 171</b>
               p En este se reglamenta la transición para la implementación del sistema de gestión de la seguridad y salud en el trabajo, donde todos los empleadores los contratantes de cualquier modalidad deberán sustituir el programa de salud ocupacional por el SGSST.
@@ -116,7 +120,7 @@
           .row(titulo="2017" subtitulo="")
             .col-lg-2.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema7/img17.png', alt='Texto que describa la imagen')
+                img.img-t.mx-auto(src='@/assets/curso/tema7/img17.png', alt='Texto que describa la imagen')
             .col-lg-6
               p <b>Resolución 1111</b>
               p Se define los estándares mínimos del SGSST para empleadores y contratantes, esta incluye normas, requisitos y procedimientos obligatorios con que se verifica, controla que se cumplan las condiciones básicas para el desarrollo de actividades.
@@ -126,7 +130,7 @@
           .row(titulo="2018" subtitulo="")
             .col-lg-2.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/tema7/img18.png', alt='Texto que describa la imagen')
+                img.img-t.mx-auto(src='@/assets/curso/tema7/img18.png', alt='Texto que describa la imagen')
             .col-lg-6
               p <b>Resolución 3310</b>
               p Se adopta el formulario único para reporte de novedades al sistema de riesgos laborales.
@@ -134,7 +138,7 @@
               p En esta se deroga la Resolución 1111 de 2017,  definiendo nuevos estándares mínimos del SGSST.
 
     #t_7_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
-      h2 7.1	Métodos técnicos y sistemas de ordenación
+      h2 7.1	Seguridad y salud en el trabajo (Posturas)
 
     p.mb-4 La mala postura en el lugar de trabajo es una de las principales causas de dolor de espalda, además el estrés en el lugar de trabajo y puede provocar lesiones por esfuerzos repetitivos. Esto puede dar como resultado una mala salud de los empleados,  que en última instancia, conducirá a una reducción de la productividad, pérdida de tiempo y mayores costos comerciales.
 
@@ -256,41 +260,12 @@
 
     h5.mb-5 La implementación de sistemas de información en las empresas aporta el reemplazo del papel o a la reducción de su consumo, pues se puede contar con documentos electrónicos en red y la gestión de registros, lo que trae beneficios.
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center
       .col-lg-6.col-xl-7.col-xxl-6
-        p <b>Una de las estrategias para reducir el desperdicio de papel en una oficina es:</b>
+        p.mb-0 <b>Una de las estrategias para reducir el desperdicio de papel en una oficina es:</b>
 
     .row.mb-5
-      .col-lg-2.mb-4.mb-lg-0
-        .bg_6.p-5.h-100
-          .row.justify-content-center
-            .col-lg-10
-              img.img-t.mx-auto(src='@/assets/curso/tema7/img06.svg')
-      .col-lg-2.mb-4.mb-lg-0
-        .bg_6.p-5.h-100
-          .row.justify-content-center
-            .col-lg-10
-              img.img-t.mx-auto(src='@/assets/curso/tema7/img07.svg')
-      .col-lg-2.mb-4.mb-lg-0
-        .bg_6.p-5.h-100
-          .row.justify-content-center
-            .col-lg-10
-              img.img-t.mx-auto(src='@/assets/curso/tema7/img08.svg')
-      .col-lg-2.mb-4.mb-lg-0
-        .bg_6.p-5.h-100
-          .row.justify-content-center
-            .col-lg-10
-              img.img-t.mx-auto(src='@/assets/curso/tema7/img09.svg')
-      .col-lg-2.mb-4.mb-lg-0
-        .bg_6.p-5.h-100
-          .row.justify-content-center
-            .col-lg-10
-              img.img-t.mx-auto(src='@/assets/curso/tema7/img10.svg')
-      .col-lg-2
-        .bg_6.p-5.h-100
-          .row.justify-content-center
-            .col-lg-10
-              img.img-t.mx-auto.mt-3(src='@/assets/curso/tema7/img11.svg')
+      BotonesB3
 
     .row.justify-content-center.mb-4       
       .col-lg-10 
@@ -311,10 +286,7 @@
                 li
                   i.fas.far.fa-check
                   p.m-0.ms-3 Proporcionar al personal comentarios continuos sobre el esquema, incluidas cifras sobre la cantidad de papel recolectado. Sugiera hacer una donación a la caridad o plantar un árbol cuando se cumplan los objetivos. 
-                
-
-
-
+        
      
 
 </template>
@@ -324,6 +296,28 @@ export default {
   name: 'Tema3',
   data: () => ({
     // variables de vue
+  }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
+}
+</script>
+
+<script>
+import BotonesB3 from '../components/BotonesB3.vue'
+export default {
+  name: 'Tema7',
+  components: {
+    BotonesB3,
+  },
+  data: () => ({
+    // variables de vue
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {

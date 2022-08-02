@@ -73,27 +73,8 @@
     
     p.mb-5 <b>Es necesario reconocer las siguientes características de los datos, las cuales se detalla a continuación:</b>
 
-    .row.justify-content-center
-      .col-lg-10
-        ImagenInfografica.color-secundario.mb-5
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/tema1/img23.svg', alt='Texto que describa la imagen')
-
-          .tarjeta.bg_color3.p-3(x="41%" y="30%")
-            p Los datos deben ser lo suficientemente precisos para el uso previsto y deben capturarse una sola vez, aunque pueden tener múltiples usos.
-
-          .tarjeta.bg_color3.p-3(x="53%" y="30%")
-            p Los datos deben registrarse y utilizarse de conformidad con los requisitos pertinentes, incluida la aplicación correcta de cualquier regla o definición, esto asegurará la consistencia entre periodos y con organizaciones similares, midiendo lo que se pretende medir.
-          
-          .tarjeta.bg_color3.p-3(x="65%" y="30%")
-            p Los datos deben reflejar procesos de recopilación estables y coherentes a lo largo del tiempo. Debe reflejar calidad en los enfoques o métodos de recopilación de datos, además los datos de origen deben estar claramente identificados y fácilmente disponibles a partir de sistemas y registros manuales, automatizados u otros.
-
-          .tarjeta.bg_color3.p-3(x="78%" y="30%")
-            p Los datos deben capturarse lo más rápido posible después del evento o actividad y deben estar disponibles para el uso previsto dentro de un período de tiempo razonable. Deben obtenerse con la frecuencia suficiente para respaldar las necesidades de información e influir en las decisiones de servicio o gestión.
-
-          .tarjeta.bg_color3.p-3(x="90%" y="30%")
-            p Los datos capturados deben ser relevantes para los fines para los que se van a utilizar. Esto requerirá una revisión periódica de los requisitos para reflejar las necesidades cambiantes.
+    .row.mb-0
+      BotonesB2
     
     .row.mb-4
       .col-lg-2.col-xl-3.col-xxl-2
@@ -113,10 +94,13 @@
     .bg_slyder.p-5.mb-5
       SlyderA(tipo="b").color_slyder-a_botones
         .row.justify-content-around
-          .col-lg-6(data-aos="fade-right") 
+          .col-lg-8(data-aos="fade-right") 
             h4 Datos de procesos comerciales
             p Para mejorar continuamente sus operaciones, las empresas recopilan datos sobre sus procesos comerciales, los cuales pueden ir desde la cantidad de días que tardan sus clientes en pagar las facturas hasta el tiempo que tardan en ensamblar y empaquetar un producto.  
-            p Para recopilar este tipo de datos, muchas empresas emplean sistemas de planificación de recursos empresariales, los cuales rastrean los recursos comerciales (efectivo, materias primas, capacidad de producción) y el estado de los compromisos comerciales: pedidos, órdenes de compra y nómina.      
+            p Para recopilar este tipo de datos, muchas empresas emplean sistemas de planificación de recursos empresariales, los cuales rastrean los recursos comerciales (efectivo, materias primas, capacidad de producción) y el estado de los compromisos comerciales: pedidos, órdenes de compra y nómina. 
+            p Las aplicaciones que componen el sistema comparten datos entre varios departamentos (fabricación, compras, ventas, contabilidad, etc.) que proporcionan los datos. 
+            p Los sistemas de punto de venta, mediante el escaneo recopila datos que se pueden usar en la gestión de inventario, programas de fidelización, registros de proveedores, contabilidad, emisión de órdenes de compra, cotizaciones y transferencias de existencias, informes de ventas y, en algunos casos, conexión en red con centros de distribución.
+     
           .col-lg-4(data-aos="fade-left") 
             figure
               img(src='@/assets/curso/tema1/img06.svg', alt='AvatarTop')
@@ -133,7 +117,7 @@
         .row.justify-content-around
           .col-lg-6
             h4 Datos biológicos
-            p Si tiene un teléfono inteligente más nuevo, es posible que pueda desbloquearlo simplemente mirando la pantalla, esto es posible gracias al software de reconocimiento facial. Desbloquear su computadora portátil con su huella digital es otro ejemplo. Aunque cosas como el reconocimiento de voz y rostro, los escaneos de retina y las firmas biométricas se utilizan actualmente principalmente con fines de seguridad, es posible que en el futuro este tipo de datos permite la personalización de productos y servicios.     
+            p Si tiene un teléfono inteligente más nuevo, es posible que pueda desbloquearlo simplemente mirando la pantalla, esto es posible gracias al software de reconocimiento facial. Desbloquear su computadora portátil con su huella digital es otro ejemplo. Aunque cosas como el reconocimiento de voz y rostro, los escaneos de retina y las firmas biométricas se utilizan actualmente principalmente con fines de seguridad, es posible que en el futuro este tipo de datos permita la personalización de productos y servicios.     
           .col-lg-4
             figure
               img(src='@/assets/curso/tema1/img08.svg', alt='AvatarTop')
@@ -217,7 +201,7 @@
       .col-lg-10.col-xl-11
         figure.mb-5
           img.img-t.mx-auto(src='@/assets/curso/tema1/img13.svg')
-        h4 Con el transcurso del tiempo, el hombre ha ideado ciertas herramientas para ayudarlo en el procesamiento de datos. Éstos incluyen:
+        h4 Con el transcurso del tiempo, el hombre ha ideado ciertas herramientas para ayudarlo en el procesamiento de datos. Estos incluyen:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.mb-4.mb-lg-0
@@ -265,68 +249,68 @@
           SlyderA(tipo="b").heigth_1.color_slyder-a_botones
             .row.justify-content-center.align-items-start
               .col-lg-10(data-aos="fade-right") 
-                h4 Compacidad: 
-                | el sistema de archivo compacto debe ser adoptado por todas las oficinas comerciales, esto significa que el sistema de archivo no debería requerir ningún espacio innecesario.
+                h4 Compacidad
+                | El sistema de archivo compacto debe ser adoptado por todas las oficinas comerciales, esto significa que el sistema de archivo no debería requerir ningún espacio innecesario.
 
             .row.justify-content-center
               .col-lg-10
-                h4  Simplicidad: 
-                | el sistema de archivo debe ser simple y no demasiado elaborado.
+                h4  Simplicidad
+                | El sistema de archivo debe ser simple y no demasiado elaborado.
 
             .row.justify-content-center
               .col-lg-10
-                h4 Accesibilidad:
-                | un buen sistema de archivo debe organizarse de tal manera que los registros estén fácilmente disponibles cuando sea necesario. El sistema de archivo debe permitir la inserción de documentos adicionales sin alterar el orden existente de los archivos.     
+                h4 Accesibilidad
+                | Un buen sistema de archivo debe organizarse de tal manera que los registros estén fácilmente disponibles cuando sea necesario. El sistema de archivo debe permitir la inserción de documentos adicionales sin alterar el orden existente de los archivos.     
 
             .row.justify-content-center
               .col-lg-10
-                h4 Economía: 
-                | el sistema de archivo debe ser económico en tiempo, espacio, dinero y operaciones. El costo de instalación y operación del sistema de llenado debe ser lo más bajo posible. El equipo de archivo seleccionado debe ocupar un espacio mínimo, pero puede acomodar un número máximo de archivos. El costo del equipo de archivo debe ser muy bajo. El equipo de archivo ahorra tiempo de operación, es decir, ubicar, insertar y colocar documentos y papeles en un archivo. Los registros no deseados pueden eliminarse para ahorrar espacio.
+                h4 Economía 
+                | El sistema de archivo debe ser económico en tiempo, espacio, dinero y operaciones. El costo de instalación y operación del sistema de llenado debe ser lo más bajo posible. El equipo de archivo seleccionado debe ocupar un espacio mínimo, pero puede acomodar un número máximo de archivos. El costo del equipo de archivo debe ser muy bajo. El equipo de archivo ahorra tiempo de operación, es decir, ubicar, insertar y colocar documentos y papeles en un archivo. Los registros no deseados pueden eliminarse para ahorrar espacio.
             
             .row.justify-content-center
               .col-lg-10
-                h4 Flexibilidad: 
-                | el sistema de archivo puede ampliarse si aumenta el volumen de transacciones comerciales. Un sistema inflexible no es útil después de cruzar un cierto límite.
+                h4 Flexibilidad
+                | El sistema de archivo puede ampliarse si aumenta el volumen de transacciones comerciales. Un sistema inflexible no es útil después de cruzar un cierto límite.
 
             .row.justify-content-center
               .col-lg-10
-                h4  Clasificación: 
-                | el sistema de archivo debe estar respaldado por un sistema adecuado de clasificación. La clasificación adecuada reduce la cantidad de archivos que se deben mantener y ayuda a insertar y ubicar los documentos en los archivos.
+                h4  Clasificación
+                | El sistema de archivo debe estar respaldado por un sistema adecuado de clasificación. La clasificación adecuada reduce la cantidad de archivos que se deben mantener y ayuda a insertar y ubicar los documentos en los archivos.
 
             .row.justify-content-center
               .col-lg-10
-                h4 Seguridad: 
-                | los documentos y registros archivados deben estar en condiciones seguras y disponibles cuando se requieran. Los documentos y registros deben protegerse de insectos, lluvia, polvo o mal manejo.
+                h4 Seguridad 
+                | Los documentos y registros archivados deben estar en condiciones seguras y disponibles cuando se requieran. Los documentos y registros deben protegerse de insectos, lluvia, polvo o mal manejo.
 
             .row.justify-content-center
               .col-lg-10
-                h4  Referencia cruzada: 
-                | se debe dar una referencia cruzada siempre que un documento pueda archivarse en más de un encabezado para evitar confusiones y facilitar la ubicación de los archivos. Ahorrar tiempo y recursos humanos.
+                h4  Referencia cruzada 
+                | Se debe dar una referencia cruzada siempre que un documento pueda archivarse en más de un encabezado para evitar confusiones y facilitar la ubicación de los archivos. Ahorrar tiempo y recursos humanos.
 
             .row.justify-content-center
               .col-lg-10
-                h4 Fácil ubicación: 
-                | los documentos y registros deben mantenerse de tal manera que puedan ubicarse fácilmente cuando sea necesario con la mínima demora posible. Al mismo tiempo, no requiere grandes gastos para lograr este propósito.
+                h4 Fácil ubicación 
+                | Los documentos y registros deben mantenerse de tal manera que puedan ubicarse fácilmente cuando sea necesario con la mínima demora posible. Al mismo tiempo, no requiere grandes gastos para lograr este propósito.
  
             .row.justify-content-center
               .col-lg-10
-                h4  Indexación: 
-                | también se utiliza un índice bien diseñado para complementar el sistema de archivo. Ayudará a localizar el archivo rápidamente cuando sea necesario.
+                h4  Indexación 
+                | También se utiliza un índice bien diseñado para complementar el sistema de archivo. Ayudará a localizar el archivo rápidamente cuando sea necesario.
 
             .row.justify-content-center
               .col-lg-10
-                h4 Retención: 
+                h4 Retención 
                 | Todos los documentos y registros se mantienen por un período mínimo de tiempo. Entonces, los registros y documentos muertos se pueden desechar sin demasiada perturbación. Los documentos y registros restantes se conservan incluso después de un período de almacenamiento.
             
             .row.justify-content-center
               .col-lg-10
-                h4 Guías de salida: 
-                | se debe mantener una referencia en los archivos de que la lista de documentos o registros son retirados por el personal de la oficina o departamento y devueltos los documentos con fecha. Las reglas y los procedimientos se pueden enmarcar y seguir para evitar errores de archivo.             
+                h4 Guías de salida 
+                | Se debe mantener una referencia en los archivos de que la lista de documentos o registros son retirados por el personal de la oficina o departamento y devueltos los documentos con fecha. Las reglas y los procedimientos se pueden enmarcar y seguir para evitar errores de archivo.             
 
             .row.justify-content-center
               .col-lg-10
-                h4 Mínimo desarchivo: 
-                | la principal dificultad no tiene que ver con el archivo sino con la búsqueda de los documentos. El archivo incorrecto causa retrasos en la ubicación del documento deseado. Por lo tanto, solo el personal autorizado puede tener acceso a los archivos.
+                h4 Mínimo desarchivo 
+                | La principal dificultad no tiene que ver con el archivo sino con la búsqueda de los documentos. El archivo incorrecto causa retrasos en la ubicación del documento deseado. Por lo tanto, solo el personal autorizado puede tener acceso a los archivos.
       .col-lg-5
         figure
           img.img-t.mx-auto(src='@/assets/curso/tema1/img19.png')
@@ -339,12 +323,12 @@
     p.mb-5 La información es uno de los activos más importantes en las empresas, por esto es necesario implementar controles a esta, la mayoría de los departamentos de donde están los sistemas de información permanecen centralizados, con el fin de brindar servicios a las unidades de negocios de forma organizada y protegiendo la información. Para esto existen métodos que ayudan a proteger y evaluar las vulnerabilidades asociadas, tales como:
 
     .row.mb-5.justify-content-center
-      .col-sm-6.col-xl-5.mb-4.mb-sm-0
+      .col-sm-6.col-xl-5.mb-4.mb-sm-0.border_tar-t1-2
         .tarjeta.tarjeta-slide.derecha.color-acento-contenido.p-5(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img20.svg')})`}")
             .tarjeta-slide__contenido.p-0.p-xl-4
-              h3 Procedimiento de evaluación de riesgos:
+              h3 Procedimiento de evaluación de riesgos
               p Es una evaluación metódica de la probabilidad de pérdidas debido a exposiciones de valores y el alcance de estas pérdidas. El riesgo se define como el producto de la cantidad que se puede perder debido a la exposición de un valor y la probabilidad de que tal pérdida ocurra. Esta probabilidad se puede estimar por la frecuencia de tales ocurrencias en el pasado.
 
       .col-sm-6.col-xl-5
@@ -352,7 +336,7 @@
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img21.svg')})`}")
             .tarjeta-slide__contenido.padding_1
-              h3.text-white.mb_1 Análisis de escenarios:
+              h3.text-white.mb_1 Análisis de escenarios
               p.text-white Es un método de control del sistema que involucra ataques simulados al sistema para determinar su vulnerabilidad.
 
     p.mb-5.mt-5.mt-lg-0 Los controles en los sistemas de información se implementan para garantizar operaciones seguras, para así salvaguardar los activos y los datos almacenados en estos sistemas, asegurando que las aplicaciones logren sus objetivos de manera eficiente, para esto las empresas deben implementar un conjunto de políticas, procedimientos y medidas tecnológicas, que aporten esquemas de control, que pueden diseñarse para:
@@ -400,6 +384,28 @@ export default {
   components: {},
   data: () => ({
     // variables de vue
+  }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
+}
+</script>
+
+<script>
+import BotonesB2 from '../components/BotonesB2.vue'
+export default {
+  name: 'Tema1',
+  components: {
+    BotonesB2,
+  },
+  data: () => ({
+    // variables de vue
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {

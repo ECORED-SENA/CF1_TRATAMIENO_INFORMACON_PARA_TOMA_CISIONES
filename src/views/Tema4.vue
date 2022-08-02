@@ -114,8 +114,10 @@
                   i.fas.fa-caret-right
                   h4.m_block.text-white.mt_1 Lineamientos normativos
 
-    p.mb-5 Las decisiones comerciales legales y éticas, ya sea en empresa grande o pequeña, tienen consecuencias según su enfoque de dirección. 
-    h5.mb-5 Al momento de tomar una decisión siempre se debe considerar las normativas, leyes, estatutos o políticas que aplican en la ejecución, esto con el fin de cumplirlas a cabalidad.
+    p.m-0 Las decisiones comerciales legales y éticas, ya sea en empresa grande o pequeña, tienen consecuencias según su enfoque de dirección.
+    p.mb-5 Al momento de tomar una decisión siempre se debe considerar las normativas, leyes, estatutos o políticas que aplican en la ejecución, esto con el fin de cumplirlas a cabalidad. 
+
+    h5.mb-5 A continuación, se presentan algunas consideraciones al momento de tomar decisiones comerciales y las consideraciones legales:
 
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Fijación de precios" :icono="require('@/assets/curso/tema4/img09.svg')")
@@ -162,7 +164,7 @@
               ul.lista-ul
                 li
                   i.fas.fa-caret-right
-                  h4.m_block.text-white.mt_1 Formatos utilizados para la toma de decisiones empresariales.
+                  h4.m_block.text-white.mt_1 Formatos utilizados para la toma de decisiones empresariales
 
     p Las decisiones de inteligencia empresarial generalmente se dividen en tres categorías: estratégicas, tácticas y operativas, en cada nivel se aplican estrategias diferentes y se dispone de información específica para la gestión, pero la misión y estrategia empresarial es la que da el norte a toda la organización.
 
@@ -171,19 +173,19 @@
     .row.mb-5
       .col-lg-7
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-          .row.justify-content-evenly(titulo="Las decisiones estratégicas:")
+          .row.justify-content-evenly(titulo="Las decisiones estratégicas")
             .col-md-10
               p Comprenden el nivel más alto de las decisiones empresariales de la organización, por lo general las toman los ejecutivos de la organización. Sin embargo, su impacto es enorme y de largo alcance.
               p Algunos tipos de decisiones estratégicas incluyen la selección de un mercado particular para alcanzar, alianzas estratégicas, implementación de proyectos de gran envergadura  o contratación personal adicional que aporte a la estrategia.
               p Las decisiones que se toman a este nivel suelen implicar gastos importantes. Sin embargo, generalmente no son de naturaleza repetitiva y se toman solo después de un análisis y evaluación cuidadosos de muchas alternativas.
        
-          .row.justify-content-evenly(titulo="Las decisiones tácticas:")
+          .row.justify-content-evenly(titulo="Las decisiones tácticas")
             .col-md-10
               p Ocurren con mayor frecuencia (por ejemplo, semanal o mensualmente) y son de nivel de gestión media. A menudo, se relacionan con la implementación de decisiones estratégicas.
               p Los ejemplos de decisiones tácticas incluyen cambios de precios de productos, contratación de cargos medios y operativos, horarios de trabajo, reorganización departamental y actividades similares.
               p El impacto de este tipo de decisiones es medio en cuanto a riesgo para la organización e impacto en la rentabilidad.
 
-          .row.justify-content-evenly(titulo="Las decisiones operativas:")
+          .row.justify-content-evenly(titulo="Las decisiones operativas")
             .col-md-10
               p Suelen ocurrir con frecuencia por día o por hora, se relacionan con las operaciones diarias de la empresa y tienen un impacto menor en la organización, determinan el rendimiento del día a día.
          

@@ -54,7 +54,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Herramientas Tecnológicas',
+        titulo: 'Herramientas tecnológicas',
         desarrolloContenidos: true,
       },
       {
@@ -109,7 +109,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '7.1',
-            titulo: 'Seguridad y salud en el trabajo (Posturas)',
+            titulo: 'Seguridad y salud en el trabajo (posturas)',
             hash: 't_7_1',
           },
           {
@@ -174,7 +174,7 @@ export default {
       referencia:
         'ONiAd – Publicidad [ONiAd - Publicidad Programática]. (2019, 1 de agosto). Programática. [vídeo]. Yotube.',
       tipo: 'Video',
-      descarga: 'https://youtu.be/QmBMwydWEeg',
+      link: 'https://youtu.be/QmBMwydWEeg',
     },
     {
       tema: 'Herramientas ofimáticas',
@@ -188,7 +188,7 @@ export default {
       referencia:
         'Ecosistema de recursos educativos digitales SENA. [Ecosistema de Recursos Educativos Digitales SENA]. (2022, 26 de marzo). Herramientas ofimáticas. [vídeo]. YouTube.',
       tipo: 'Video',
-      descarga: 'https://youtu.be/Hs7UG7RO3_M',
+      link: 'https://youtu.be/Hs7UG7RO3_M',
     },
     {
       tema: 'Celdas',
@@ -202,7 +202,7 @@ export default {
       referencia:
         'Lapiedra Alcamí, R., Devece Carañana, C. y  Guiral Herrando, J. (2000). Introducción a la gestión de sistemas de información en la empresa. Meta Biblioteca.',
       tipo: 'Artículo',
-      descarga:
+      link:
         'https://libros.metabiblioteca.org/bitstream/001/193/8/978-84-693-9894-4.pdf',
     },
     {
@@ -217,7 +217,7 @@ export default {
       referencia:
         'Sanco Seguros. [Sancor Seguros]. (2015, 12 de mayol). Prevención Riesgos del Trabajo: Posturas Saludables. [vídeo]. YouTube.',
       tipo: 'Video',
-      descarga: 'https://youtu.be/nZTfwdwJH-4',
+      link: 'https://youtu.be/nZTfwdwJH-4',
     },
     {
       tema: 'Seguridad ambiental (uso eficiente del papel)',
@@ -322,19 +322,19 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Responsable Equipo Desarrollo Curricular',
+        cargo: 'Asesor metodológico y pedagógico',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'José Francisco Charà Carrero',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
           'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
       },
       {
         nombre: 'Giovanna Andrea Escobar',
-        cargo: 'Diseñadora Instruccional',
+        cargo: 'Diseñadora instruccional',
         centro:
           'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
       },
@@ -386,16 +386,6 @@ export default {
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

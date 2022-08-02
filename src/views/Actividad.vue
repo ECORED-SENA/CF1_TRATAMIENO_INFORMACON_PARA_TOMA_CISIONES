@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Auto-evaluación de conceptos
-        p.mb-4 #[b Objetivo] Reconocer los métodos del manejo de la información para fortalecer el procedimiento en la toma de decisiones.
+        p.mb-4 Reconocer los métodos del manejo de la información para fortalecer el procedimiento en la toma de decisiones.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

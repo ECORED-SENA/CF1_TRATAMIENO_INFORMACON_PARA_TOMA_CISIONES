@@ -31,7 +31,7 @@
             p Dar soporte informático a todas áreas que lo requieran, atendiendo de los usuarios (consultas, resolución de problemas, preguntas frecuentes, asesoría técnica, información general).
 
           .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="89.8%" y="33.6%" numero="2")
-            p Realizar mantenimiento correctivo y preventivo en los equipos de computo.
+            p Realizar mantenimiento correctivo y preventivo en los equipos de cómputo.
 
           .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="74.78%" y="9.8%" numero="3")
             p Optimizar el rendimiento de las aplicaciones de negocios.
@@ -60,7 +60,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema5/img03.svg')})`}"
           )
           .bloque-texto-g__texto.p-5
-            p Los empleados en general también deben recibir capacitaciones en el uso de los aplicativos que maneja, para que puedan desempeñarse adecuadamente en sus funciones y estar familiarizados con el software o el sistema.
+            p Los empleados en general también deben recibir capacitaciones en el uso de los aplicativos que maneja, para que puedan desempeñarse adecuadamente en sus funciones y estar familiarizados con el <em>software</em> o el sistema.
 
     p.mb-5 Las tecnologías de la información cubren una amplia gama de servicios e industrias, sin ella, sería imposible que las empresas y la sociedad trascienda en el cumplimiento de  sus misiones, amplíen su red y alcancen el éxito, soportando desde procesos simples como la entrada de datos, el mantenimiento de registros, hasta la implementación de operaciones complejas, el mantenimiento de los sistemas de información, la protección de datos, la implementación de los sistemas avanzados, con el propósito de soportar la base tecnológica y aplicaciones claves de las organizaciones.
 
@@ -70,19 +70,9 @@
           .color-fondo__texto 
             | <b>Dentro de cualquier organización es importante reconocer las áreas que soportan la estrategia del negocio, en cada una se debe tener personal calificado para realizar las tareas propias del cargo, a continuación, se detallan las más representativas que soportan las empresas:</b>
 
-    .row.mb-5
-      .col-lg-6
-        figure
-          img(src='@/assets/curso/tema5/img04.svg')
-      .col-lg-6
-        .bg_5.p-5
-          .row
-            .col-lg-2.mb-4
-              figure.mb-5
-                img.img-t(src='@/assets/curso/tema5/img05.svg')
-              h4 Control
-          p Las áreas de control buscan identificar los riesgos relacionados con el negocio, la estrategia y el logro de los objetivos, con el fin de detectar y prevenir conductas ilícitas o prácticas indebidas que deban ser corregidas oportunamente.
-
+    .botones-hover.mb-4
+      Botones
+    
     .row.mb-5
       .col-lg-4.col-xl-5.col-xxl-4
         .bg_1
@@ -116,15 +106,15 @@
         .row.justify-content-around
           .col-lg-6
             h4 Resolver problemas complejos
-            p Las áreas sistemas brindan a las empresas las herramientas necesarias para obtener hardware mejorado, como almacenamiento de alta memoria, procesadores más rápidos y pantallas de alta calidad, combinado con aplicaciones más inteligentes como software de mapas mentales, sistemas colaborativos y un proceso automatizado para hacer que el trabajo sea más ágil y organizado, ayuda a las industrias a investigar y recopilar datos fácilmente, analizar información y planificar la escalabilidad. 
+            p Las áreas sistemas brindan a las empresas las herramientas necesarias para obtener <em>hardware</em> mejorado, como almacenamiento de alta memoria, procesadores más rápidos y pantallas de alta calidad, combinado con aplicaciones más inteligentes como <em>software</em> de mapas mentales, sistemas colaborativos y un proceso automatizado para hacer que el trabajo sea más ágil y organizado, ayuda a las industrias a investigar y recopilar datos fácilmente, analizar información y planificar la escalabilidad. 
           .col-lg-4
             figure
               img.img-t.mx-auto(src='@/assets/curso/tema5/img07.svg', alt='AvatarTop')
 
         .row.justify-content-around
           .col-lg-6
-            h4 Seguridad contra virus y otro software comprometido
-            p Los servicios de soporte de TI garantizan la seguridad de sus sistemas informáticos contra una variedad de virus y otras amenazas en línea. Además mantener los sistemas informáticos actualizados y monitoreados evita que la empresa caiga en riesgos acceso y las operaciones de datos digitales.    
+            h4 Seguridad contra virus y otro <em>software</em> comprometido
+            p Los servicios de soporte de TI garantizan la seguridad de sus sistemas informáticos contra una variedad de virus y otras amenazas en línea. Además mantener los sistemas informáticos actualizados y monitoreados evita que la empresa caiga en riesgos de acceso y operaciones de datos digitales.    
           .col-lg-4
             figure
               img.img-t.mx-auto(src='@/assets/curso/tema5/img08.svg', alt='AvatarTop')
@@ -148,7 +138,7 @@
 
         .row.justify-content-around
           .col-lg-6
-            h4 Estrategias de marketing en línea
+            h4 Estrategias de <em>marketing</em> en línea
             p Pueden ser amplificadas por los sistemas de información en términos de facilitar una investigación de mercado más precisa y acumular datos valiosos. Esto incluye encontrar audiencias objetivo, descubrir sus necesidades y demandas únicas y crear una campaña promocional que atraiga a las personas a comprar.   
           .col-lg-4
             figure
@@ -165,13 +155,10 @@
         .row.justify-content-around
           .col-lg-6
             h4 Mayor reconocimiento de marca
-            p Cuando la marca se combina con los servicios y sistemas de información, no se limita solo a mejorar las estrategias de marketing existentes o ayudar a formar un nuevo enfoque publicitario. La tecnología puede aumentar aún más la marca mediante la maximización de la originalidad de la línea de productos y servicios de una empresa.    
+            p Cuando la marca se combina con los servicios y sistemas de información, no se limita solo a mejorar las estrategias de <em>marketing</em> existentes o ayudar a formar un nuevo enfoque publicitario. La tecnología puede aumentar aún más la marca mediante la maximización de la originalidad de la línea de productos y servicios de una empresa.    
           .col-lg-4
             figure
               img.img-t.mx-auto(src='@/assets/curso/tema5/img13.svg', alt='AvatarTop')
-
-      
-
 
 
 
@@ -179,9 +166,32 @@
 
 <script>
 export default {
-  name: 'Tema3',
+  name: 'Tema5',
   data: () => ({
     // variables de vue
+  }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
+}
+</script>
+
+<script>
+import Botones from '../components/Botones.vue'
+export default {
+  name: 'Tema5',
+  components: {
+    Botones,
+  },
+  data: () => ({
+    // variables de vue
+    mostrarIndicador: true,
+    modal1: false,
   }),
   mounted() {
     this.$nextTick(() => {

@@ -37,56 +37,59 @@ export default {
         img_h: require('@/assets/curso/tema2/img12-2.svg'),
         pos_x: '18%',
         pos_y: '35.1%',
-        titulo: 'Cumplir con los plazos de entrada de datos',
+        titulo: 'Cumplir con los plazos de entrada de datos.',
       },
       {
         img: require('@/assets/curso/tema2/img11-3.svg'),
         img_h: require('@/assets/curso/tema2/img12-3.svg'),
         pos_x: '27%',
         pos_y: '35.1%',
-        titulo: 'Clasificación de la información',
+        titulo: 'Clasificación de la información.',
       },
       {
         img: require('@/assets/curso/tema2/img11-4.svg'),
         img_h: require('@/assets/curso/tema2/img12-4.svg'),
         pos_x: '36%',
         pos_y: '35.1%',
-        titulo: 'Revisión de datos en busca de errores y corrección de estos',
+        titulo: 'Revisión de datos en busca de errores y corrección de estos.',
       },
       {
         img: require('@/assets/curso/tema2/img11-5.svg'),
         img_h: require('@/assets/curso/tema2/img12-5.svg'),
         pos_x: '45%',
         pos_y: '35.1%',
-        titulo: 'Tener una buena postura y aplicar técnicas de digitación.',
+        titulo: 'Escaneo de documentos y otros archivos, cuando sea necesario.',
       },
       {
         img: require('@/assets/curso/tema2/img11-6.svg'),
         img_h: require('@/assets/curso/tema2/img12-6.svg'),
         pos_x: '54%',
         pos_y: '35.1%',
-        titulo: 'Cumplir con los plazos de entrada de datos',
+        titulo: 'Ayudar a construir sistemas de gestión de datos.',
       },
       {
         img: require('@/assets/curso/tema2/img11-7.svg'),
         img_h: require('@/assets/curso/tema2/img12-7.svg'),
         pos_x: '63%',
         pos_y: '35.1%',
-        titulo: 'Clasificación de la información',
+        titulo:
+          'Dar buen manejo a la información que debe digitar y mantener la confidencialidad de acuerdo con las políticas y regulaciones de la compañía.',
       },
       {
         img: require('@/assets/curso/tema2/img11-8.svg'),
         img_h: require('@/assets/curso/tema2/img12-8.svg'),
         pos_x: '72%',
         pos_y: '35.1%',
-        titulo: 'Revisión de datos en busca de errores y corrección de estos',
+        titulo:
+          'Generar informes y realizar operaciones de respaldo, cuando sea requerido.',
       },
       {
         img: require('@/assets/curso/tema2/img11-9.svg'),
         img_h: require('@/assets/curso/tema2/img12-9.svg'),
         pos_x: '81%',
         pos_y: '35.1%',
-        titulo: 'Revisión de datos en busca de errores y corrección de estos',
+        titulo:
+          'Contar con habilidades básicas de ofimática y manejo del software requerido.',
       },
     ],
   }),
@@ -151,12 +154,14 @@ export default {
     top: 120%
     left: 70%
     background-color: #FFFFFF
-    width: 300px
-    height: 80px
+    width: 280px
+    height: 120px
     z-index: 100
     line-height: 1.2em
     border-radius: 14px
     transform: translate(-50%)
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+      width: 260px
     p
       line-height: 1.2em
 @media (max-width: $bp-max-md)

@@ -6,8 +6,7 @@
     .row.justify-content-end
       .col-lg-11       
         .titulo-sexto.color-acento-contenido.bg_color4
-          h3 Tratamiento de la información para la toma de decisiones.
-          p Síntesis: Tratamiento de la información y toma de decisiones
+          h3 Tratamiento de la información para la toma de decisiones
       .col-lg-1
         figure
           img(src="@/assets/template/logo-sena-naranja.svg")
