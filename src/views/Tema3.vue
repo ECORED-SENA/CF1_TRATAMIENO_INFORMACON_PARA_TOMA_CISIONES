@@ -34,7 +34,7 @@
         .row.justify-content-around
           .col-md-7.mb-4.mb-md-0
             h4 Herramienta de hoja de cálculo
-            p Este <em>software</em> contiene los datos en forma de filas y columnas, donde la intersección de una fila y una columna se llama una celda, en esta se almacenan los datos y se puede aplicar varias fórmulas  y cálculos para el análisis de información y conclusiones de los datos. En los sectores empresariales y financieros se utiliza frecuentemente estas herramientas, además cuentan con la posibilidad de adicionar gráficos, tablas, gráficos 3D, filtros, tablas dinámicas  etc. Información que aporta a la creación de informes y publicación de resultados de análisis de datos. La herramienta más conocida es  Microsoft Excel, pero en línea está disponible las hojas de cálculo de Google, ThinkFree, Numbers, Zoho Sheet, Birt, OpenOffice, entre otras.        
+            p Este <em>Software</em> contiene los datos en forma de filas y columnas, donde la intersección de una fila y una columna se llama una celda, en esta se almacenan los datos y se puede aplicar varias fórmulas  y cálculos para el análisis de información y conclusiones de los datos. En los sectores empresariales y financieros se utiliza frecuentemente estas herramientas, además cuentan con la posibilidad de adicionar gráficos, tablas, gráficos 3D, filtros, tablas dinámicas  etc. Información que aporta a la creación de informes y publicación de resultados de análisis de datos. La herramienta más conocida es  Microsoft Excel, pero en línea está disponible las hojas de cálculo de Google, ThinkFree, Numbers, Zoho Sheet, Birt, OpenOffice, entre otras.        
           .col-md-3
             figure
               img.img-t.mx-auto(src='@/assets/curso/tema3/img07.svg', alt='Texto que describa la imagen')
@@ -154,14 +154,14 @@
               figure
                 img.img-t.mx-auto(src='@/assets/curso/tema3/img14.svg', alt='Texto que describa la imagen')
             .col-md-7
-              p También conocidos como sistemas de planificación de recursos empresariales (ERP), son sistemas integrados que combinan todo el <em>hardware</em> y el <em>software</em> que utiliza una empresa para diferentes funciones en sus operaciones. Estos sistemas para toda la organización ayudan a que la información fluya entre los departamentos y permiten que los procesos de diferentes partes del negocio se integren en toda la empresa.          
+              p También conocidos como sistemas de planificación de recursos empresariales (ERP), son sistemas integrados que combinan todo el <em>Hardware</em> y el <em>Software</em> que utiliza una empresa para diferentes funciones en sus operaciones. Estos sistemas para toda la organización ayudan a que la información fluya entre los departamentos y permiten que los procesos de diferentes partes del negocio se integren en toda la empresa.          
 
           .row.justify-content-evenly(titulo="Sistemas expertos")
             .col-md-3.mb-4.mb-md-0
               figure
                 img.img-t.mx-auto(src='@/assets/curso/tema3/img15.svg', alt='Texto que describa la imagen')
             .col-md-7
-              p Estos utilizan inteligencia artificial para imitar la toma de decisiones humana. El <em>software</em> utiliza el conocimiento humano para resolver problemas que normalmente requerirían la experiencia de una persona, estos se pueden aplicar en áreas como diagnósticos médicos, contabilidad y codificación.          
+              p Estos utilizan inteligencia artificial para imitar la toma de decisiones humana. El <em>Software</em> utiliza el conocimiento humano para resolver problemas que normalmente requerirían la experiencia de una persona, estos se pueden aplicar en áreas como diagnósticos médicos, contabilidad y codificación.          
 
           .row.justify-content-evenly(titulo="Sistemas de información geográfica")
             .col-md-3.mb-4.mb-md-0
@@ -180,7 +180,7 @@
         figure
           img(src='@/assets/curso/tema3/img18.png')
 
-    h5.mb-5 Cada sistema de información incluye varios componentes claves, entre estos están el <em>hardware</em>, <em>software</em>, telecomunicaciones, personas y datos, que se detalla a continuación:
+    h5.mb-5 Cada sistema de información incluye varios componentes claves, entre estos están el <em>Hardware</em>, <em>Software</em>, telecomunicaciones, personas y datos, que se detalla a continuación:
 
     .bg_slyder2.p-5.mb-5
       SlyderA(tipo="b").color2_slyder-a_botones
@@ -189,20 +189,20 @@
             figure
               img(src='@/assets/curso/tema3/img19.png', alt='AvatarTop')
           .col-lg-7(data-aos="fade-right") 
-            h3(style= "color: #13B770") <em>hardware</em>
-            p.text-white El componente de <em>hardware</em> comprende los elementos físicos del sistema, lo que las personas pueden tocar físicamente, estos mecanismos, equipos y cableados permiten el funcionamiento de los sistemas como computadoras, teléfonos inteligentes y tabletas.
+            h3(style= "color: #13B770") <em>Hardware</em>
+            p.text-white El componente de <em>Hardware</em> comprende los elementos físicos del sistema, lo que las personas pueden tocar físicamente, estos mecanismos, equipos y cableados permiten el funcionamiento de los sistemas como computadoras, teléfonos inteligentes y tabletas.
             p.text-white Los dispositivos de entrada y salida son piezas esenciales de tecnología que permiten a los humanos interactuar con computadoras y los sistemas de información, estos son los teclados, ratones, micrófonos y escáneres, y los dispositivos de salida pueden incluir impresoras, monitores, parlantes y tarjetas de sonido y video.
-            p.text-white Las piezas de <em>hardware</em>, incluidos los microprocesadores, los discos duros, las unidades de suministro de energía eléctrica y el almacenamiento extraíble, también permiten que las computadoras almacenen y procesen datos.
+            p.text-white Las piezas de <em>Hardware</em>, incluidos los microprocesadores, los discos duros, las unidades de suministro de energía eléctrica y el almacenamiento extraíble, también permiten que las computadoras almacenen y procesen datos.
 
         .row.justify-content-center.align-items-center
           .col-lg-4
             figure
               img(src='@/assets/curso/tema3/img20.png', alt='AvatarTop')
           .col-lg-7
-            h3(style= "color: #13B770") <em>software</em>
-            p.text-white Son los programas intangibles que gestionan las funciones del sistema de información, incluida la entrada, la salida, el procesamiento y el almacenamiento. Un ejemplo de estos son los sistemas operativos MacOS o Windows, que proporcionan una base para que se ejecute el <em>software</em> de la aplicación.
-            p.text-white El <em>software</em> de aplicación opera programas orientados a usos particulares en los sistemas de información. Por ejemplo, las aplicaciones de procesamiento con interfaz gráfica de usuario que permite a los usuarios interactuar a través de gráficos digitales, como iconos, botones y barras de desplazamiento, en lugar de comandos basados en texto.  
-            p.text-white El <em>software</em> puede ser de código abierto (disponible públicamente para que los usuarios y programadores la manipulen) o de código cerrado (tiene un propietario y requiere licenciamiento). 
+            h3(style= "color: #13B770") <em>Software</em>
+            p.text-white Son los programas intangibles que gestionan las funciones del sistema de información, incluida la entrada, la salida, el procesamiento y el almacenamiento. Un ejemplo de estos son los sistemas operativos MacOS o Windows, que proporcionan una base para que se ejecute el <em>Software</em> de la aplicación.
+            p.text-white El <em>Software</em> de aplicación opera programas orientados a usos particulares en los sistemas de información. Por ejemplo, las aplicaciones de procesamiento con interfaz gráfica de usuario que permite a los usuarios interactuar a través de gráficos digitales, como iconos, botones y barras de desplazamiento, en lugar de comandos basados en texto.  
+            p.text-white El <em>Software</em> puede ser de código abierto (disponible públicamente para que los usuarios y programadores la manipulen) o de código cerrado (tiene un propietario y requiere licenciamiento). 
 
         .row.justify-content-center.align-items-center
           .col-lg-4
@@ -231,7 +231,7 @@
               img(src='@/assets/curso/tema3/img23.png', alt='AvatarTop')
           .col-lg-7
             h3(style= "color: #13B770").mb-5 Recursos humanos
-            p.text-white Son una parte crucial de los sistemas de información, pues el componente humano abarca a las personas calificadas que influyen y manipulan los datos, el <em>software</em> y los procesos en los sistemas de información. Los seres humanos involucrados en los sistemas de información pueden incluir analistas de negocios, analistas de seguridad de la información o analistas de sistemas para respaldar las operaciones y los procesos de una organización. 
+            p.text-white Son una parte crucial de los sistemas de información, pues el componente humano abarca a las personas calificadas que influyen y manipulan los datos, el <em>Software</em> y los procesos en los sistemas de información. Los seres humanos involucrados en los sistemas de información pueden incluir analistas de negocios, analistas de seguridad de la información o analistas de sistemas para respaldar las operaciones y los procesos de una organización. 
     
 
         

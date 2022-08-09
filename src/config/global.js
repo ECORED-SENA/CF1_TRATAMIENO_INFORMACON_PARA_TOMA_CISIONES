@@ -163,14 +163,14 @@ export default {
   },
   complementario: [
     {
-      tema: 'Datos e Información',
+      tema: 'Datos e información',
       referencia:
         'NTICX and More. [NTICX AND MORE]. (2021, 7 de junio). Datos e información. [vídeo]. Youtube.',
       tipo: 'Video',
       link: 'https://youtu.be/0_AREX5iJZQ',
     },
     {
-      tema: 'Herramientas Tecnológicas',
+      tema: 'Herramientas tecnológicas',
       referencia:
         'ONiAd – Publicidad [ONiAd - Publicidad Programática]. (2019, 1 de agosto). Programática. [vídeo]. Yotube.',
       tipo: 'Video',
@@ -213,7 +213,7 @@ export default {
       link: 'https://youtu.be/rWQum6aqpeE',
     },
     {
-      tema: 'Seguridad y salud en el trabajo (Posturas)',
+      tema: 'Seguridad y salud en el trabajo (posturas)',
       referencia:
         'Sanco Seguros. [Sancor Seguros]. (2015, 12 de mayol). Prevención Riesgos del Trabajo: Posturas Saludables. [vídeo]. YouTube.',
       tipo: 'Video',
@@ -340,7 +340,12 @@ export default {
       },
       {
         nombre: 'Silvia Milena Sequeda Cárdenas',
-        cargo: 'Asesoa metodológica',
+        cargo: 'Asesora metodológica',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Asesora metodológica',
         centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
@@ -368,11 +373,6 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Zuleidy María Ruíz Torres',
-        cargo: 'Producción audiovisual',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
         nombre: 'Marcia Elizabeth Solano Alvarez',
         cargo: 'Desarrollo front-end',
         centro:
@@ -381,6 +381,47 @@ export default {
       {
         nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Revisión de guion audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Lina Marcela Pérez Manchego',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Miguel Guerrero Gutiérrez',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Validación Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Laura Ximena Hurtado Villalba',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Validación audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

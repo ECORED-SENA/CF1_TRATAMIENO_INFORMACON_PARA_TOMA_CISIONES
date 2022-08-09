@@ -34,7 +34,7 @@
       .tarjeta-botones.bg-acento-botones.p-5(v-else-if="selected === 3")
         img.img-t.mb-4(src='@/assets/curso/tema5/img17.svg')
         h4 Mercadeo
-        p Las áreas de mercadeo o marketing son clave para todos los negocios, permitiendo que puedan crecer, por lo cual es necesario el apoyo creativo y la ejecución de estrategias orientadas a buscar nuevos clientes o consumidores, a través de la compra y fidelización. 
+        p Las áreas de mercadeo o <em>marketing</em> son clave para todos los negocios, permitiendo que puedan crecer, por lo cual es necesario el apoyo creativo y la ejecución de estrategias orientadas a buscar nuevos clientes o consumidores, a través de la compra y fidelización. 
 
 
 
@@ -50,24 +50,24 @@ export default {
 
     botones: [
       {
-        pos_x: '48%',
-        pos_y: '12%',
-        size: '45%',
+        pos_x: '13%',
+        pos_y: '24%',
+        size: '16%',
       },
       {
-        pos_x: '26%',
-        pos_y: '2.5%',
-        size: '45%',
+        pos_x: '35%',
+        pos_y: '50%',
+        size: '15%',
       },
       {
-        pos_x: '48%',
-        pos_y: '59%',
-        size: '45%',
+        pos_x: '51%',
+        pos_y: '13%',
+        size: '16%',
       },
       {
-        pos_x: '59%',
-        pos_y: '36.5%',
-        size: '45%',
+        pos_x: '70%',
+        pos_y: '45%',
+        size: '15%',
       },
     ],
   }),

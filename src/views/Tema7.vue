@@ -136,7 +136,7 @@
               p En esta se deroga la Resolución 1111 de 2017,  definiendo nuevos estándares mínimos del SGSST.
 
     #t_7_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
-      h2 7.1	Seguridad y salud en el trabajo (Posturas)
+      h2 7.1	Seguridad y salud en el trabajo (posturas)
 
     p.mb-4 La mala postura en el lugar de trabajo es una de las principales causas de dolor de espalda, además el estrés en el lugar de trabajo y puede provocar lesiones por esfuerzos repetitivos. Esto puede dar como resultado una mala salud de los empleados,  que en última instancia, conducirá a una reducción de la productividad, pérdida de tiempo y mayores costos comerciales.
 
