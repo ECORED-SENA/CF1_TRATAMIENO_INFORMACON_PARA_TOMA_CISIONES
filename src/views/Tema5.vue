@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
-      h1 Soporte  
+      h1(data-aos="fade-right") Soporte  
 
     .row.justify-content-center.align-items-center.mb-5         
       .col-lg-10 

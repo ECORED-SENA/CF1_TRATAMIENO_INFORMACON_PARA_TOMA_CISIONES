@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Toma de decisiones
+      h1(data-aos="fade-right") Toma de decisiones
 
     .row.align-items-center.mb-4
       .col-lg-7
@@ -47,59 +47,59 @@
     .video
       iframe(width="560" height="315" src="https://www.youtube.com/embed/K2aTksfIG9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    .row.mt-5
-      .col-lg-12
-        .bg_4.mb-5.p-5
+    .bg_4.mb-5.p-5.mt-5
+      .row.justify-content-center.mt-5
+        .col-lg-10        
           h5.mb-5 Además, es importante que se tengan en cuenta las siguientes pautas efectivas para la toma de decisiones:
           PasosA.color-acento-contenido.mb-5(tipo="n")
             .row.justify-content-center.align-items-center
-              .col-lg-7.col-xl-6.col-xxl-7.mb-4.mb-md-0
-                p El tomador de decisiones debe definir los objetivos que busca lograr al tomar una decisión, el objetivo debe ser compatible con la contribución a propósitos más amplios. La finalidad de una decisión se deriva de sus propósitos, que a su vez son parte de las organizaciones.
-              .col-auto
+              .col-lg-7.mb-4.mb-md-0
+                p.m-0 El tomador de decisiones debe definir los objetivos que busca lograr al tomar una decisión, el objetivo debe ser compatible con la contribución a propósitos más amplios. La finalidad de una decisión se deriva de sus propósitos, que a su vez son parte de las organizaciones.
+              .col-lg-5
                 figure
-                  img.img-t(src='@/assets/curso/tema4/img03.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema4/img03.png', alt='Texto que describa la imagen')
                   
             .row.justify-content-center.align-items-center
-              .col-auto.mb-4.mb-md-0
+              .col-lg-5.mb-4.mb-md-0
                 figure
-                  img.img-t(src='@/assets/curso/tema4/img04.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema4/img04.png', alt='Texto que describa la imagen')
                   
-              .col-lg-7.col-xl-6.col-xxl-7.text-start
-                p Una vez determinada la meta, se convierte en el criterio para tomar las decisiones, así como para evaluar sus resultados. Es necesario que el tomador de decisiones equilibre los objetivos en conflicto de tal manera que pueda superarlo. A menudo, un ejecutivo busca alcanzar no uno sino más de un objetivo a través de una decisión.
+              .col-lg-7.text-start
+                p.m-0 Una vez determinada la meta, se convierte en el criterio para tomar las decisiones, así como para evaluar sus resultados. Es necesario que el tomador de decisiones equilibre los objetivos en conflicto de tal manera que pueda superarlo. A menudo, un ejecutivo busca alcanzar no uno sino más de un objetivo a través de una decisión.
                 
             .row.justify-content-center.align-items-center
-              .col-lg-7.col-xl-6.col-xxl-7.mb-4.mb-md-0
-                p Un tomador de decisiones tiene la habilidad de diagnosticar, con el fin de identificar y definir el problema. Además, debe saber qué y cuánta información es relevante para solucionar el problema y cómo lo hará.
+              .col-lg-7.mb-4.mb-md-0
+                p.m-0 Un tomador de decisiones tiene la habilidad de diagnosticar, con el fin de identificar y definir el problema. Además, debe saber qué y cuánta información es relevante para solucionar el problema y cómo lo hará.
             
-              .col-auto
+              .col-lg-5
                 figure
-                  img.img-t(src='@/assets/curso/tema4/img05.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema4/img05.png', alt='Texto que describa la imagen')
 
             .row.justify-content-center.align-items-center
-              .col-auto.mb-4.mb-md-0
+              .col-lg-5.mb-4.mb-md-0
                 figure
-                  img.img-t(src='@/assets/curso/tema4/img06.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema4/img06.png', alt='Texto que describa la imagen')
                   
-              .col-lg-7.col-xl-6.col-xxl-7.text-start
-                p La participación de los subordinados en el proceso de toma de decisiones mejora la calidad de la decisión, particularmente si el tomador de decisiones no posee todas las habilidades especiales requeridas para tomar un tema en particular, el trabajo en equipo permitirá enriquecer las alternativas de solución a los problemas.
+              .col-lg-7.text-start
+                p.m-0 La participación de los subordinados en el proceso de toma de decisiones mejora la calidad de la decisión, particularmente si el tomador de decisiones no posee todas las habilidades especiales requeridas para tomar un tema en particular, el trabajo en equipo permitirá enriquecer las alternativas de solución a los problemas.
                   
             .row.justify-content-center.align-items-center
-              .col-lg-7.col-xl-6.col-xxl-7.mb-4.mb-md-0
+              .col-lg-7.mb-4.mb-md-0
                 p La implementación exitosa de una decisión depende significativamente del grado de comprensión de la decisión y sus implicaciones. 
 
                 p El resultado de la decisión debe evaluarse en términos de las metas predeterminadas, para diagnosticar si los resultados lograron su finalidad esperada.
             
-              .col-auto
+              .col-lg-5
                 figure
-                  img.img-t(src='@/assets/curso/tema4/img07.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema4/img07.png', alt='Texto que describa la imagen')
 
             .row.justify-content-center.align-items-center
-              .col-auto.mb-4.mb-md-0
+              .col-lg-5.mb-4.mb-md-0
                 figure
-                  img.img-t(src='@/assets/curso/tema4/img08.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema4/img08.png', alt='Texto que describa la imagen')
                   
-              .col-lg-7.col-xl-6.col-xxl-7.text-start
-                p El responsable de la toma de decisiones debe adoptar un enfoque flexible, no solo en el momento de tomar la decisión, sino también cuando esté en ejecución o práctica. Si no se están dando los resultados propuestos, se debe modificar, descartar o reemplazar inmediatamente por otra decisión que pueda producir resultados oportunos.
+              .col-lg-7.text-start
+                p.m-0 El responsable de la toma de decisiones debe adoptar un enfoque flexible, no solo en el momento de tomar la decisión, sino también cuando esté en ejecución o práctica. Si no se están dando los resultados propuestos, se debe modificar, descartar o reemplazar inmediatamente por otra decisión que pueda producir resultados oportunos.
 
     h5.mb-5 Para concluir, se debe reconocer que la implementación exitosa de una decisión depende significativamente del grado de comprensión de los objetivos, el problema a resolver y sus implicaciones, además de la importancia del trabajo en equipo para llegar a los logros esperados.
 

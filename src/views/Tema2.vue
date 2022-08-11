@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Herramientas tecnológicas
+      h1(data-aos="fade-right") Herramientas tecnológicas
 
     | Afortunadamente, los avances tecnológicos en software y aplicaciones han permitido que hoy en día hay muchas herramientas digitales disponibles para ayudar a optimizar los negocios y hacer que el trabajo sea menos estresante. 
     span.etiqueta <b>Los beneficios de las herramientas tecnológicas son:</b>

@@ -91,18 +91,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.btns_item--0 .li2e
-  display: none
-.btns_item--1 .li1c, .btns_item--1 .li2e
-  display: none
-.btns_item--2 .li1b, .btns_item--2 .li1c
-  display: none
-.btns_item--3 .li1c, .btns_item--3 .li2e
-  display: none
-.btns_item--4 .li1c, .btns_item--4 .li2e
-  display: none
-.btns_item--5 .li1c, .btns_item--5 .li2e
-  display: none
 
 .btns
   position: relative
@@ -119,7 +107,7 @@ export default {
   &__text
     position: absolute
     top: 120%
-    left: 70%
+    left: 50%
     background-color: #90FACC
     width: 350px
     height: 180px
@@ -127,6 +115,10 @@ export default {
     line-height: 1.2em
     border-radius: 0px
     transform: translate(-50%)
+    @media (max-width: $bp-max-md)
+      left: 0%
+      width: 260px
+      height: 270px
     p
       line-height: 1.2em
 @media (max-width: $bp-max-md)
@@ -135,38 +127,33 @@ export default {
     padding: 13%
 
   .btns_item--0
-    top: 0.5% !important
-    left: 2.5% !important
-    @media (max-width: $bp-max-md)
-      top: 1.5% !important
-      left: 29% !important
+    top: 1.5% !important
+    left: 29% !important
+    .btns__text
+      left: 100%
   .btns_item--1
-    top: 0.5% !important
-    left: 15.5% !important
-    @media (max-width: $bp-max-md)
-      top: 1.5% !important
-      left: 50% !important
+    top: 1.5% !important
+    left: 50% !important
+    .btns__text
+      left: 20%
   .btns_item--2
-    top: 0.5% !important
-    left: 18.3% !important
-    @media (max-width: $bp-max-md)
-      top: 1.5% !important
-      left: 71% !important
+    top: 1.5% !important
+    left: 71% !important
+    .btns__text
+      left: -60%
   .btns_item--3
-    top: 0.5% !important
-    left: 21.5% !important
-    @media (max-width: $bp-max-md)
-      top: 37% !important
-      left: 39% !important
+    top: 37% !important
+    left: 39% !important
+    .btns__text
+      left: 50%
   .btns_item--4
-    top: 0.5% !important
-    left: 31.1% !important
-    @media (max-width: $bp-max-md)
-      top: 37% !important
-      left: 60% !important
+    top: 37% !important
+    left: 60% !important
+    .btns__text
+      left: -20%
   .btns_item--5
-    top: 0.5% !important
-    left: 45.3% !important
+    top: 37% !important
+    left: 45% !important
 </style>
 
 @media (max-width: $bp-max-md) top: 37% !important left: 35% !important

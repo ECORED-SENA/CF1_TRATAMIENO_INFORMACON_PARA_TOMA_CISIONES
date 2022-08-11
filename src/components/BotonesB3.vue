@@ -95,18 +95,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.btns_item--0 .li2e
-  display: none
-.btns_item--1 .li1c, .btns_item--1 .li2e
-  display: none
-.btns_item--2 .li1b, .btns_item--2 .li1c
-  display: none
-.btns_item--3 .li1c, .btns_item--3 .li2e
-  display: none
-.btns_item--4 .li1c, .btns_item--4 .li2e
-  display: none
-.btns_item--5 .li1c, .btns_item--5 .li2e
-  display: none
 
 .btns
   position: relative
@@ -142,19 +130,31 @@ export default {
   .btns_item--0
     top: 0.5% !important
     left: 2.5% !important
+    .btns__text
+      top: 50%
   .btns_item--1
     top: 0.5% !important
     left: 15.5% !important
+    .btns__text
+      top: 140%
   .btns_item--2
     top: 0.5% !important
     left: 18.3% !important
+    .btns__text
+      top: 230%
   .btns_item--3
     top: 0.5% !important
     left: 21.5% !important
+    .btns__text
+      top: 320%
   .btns_item--4
     top: 0.5% !important
     left: 31.1% !important
+    .btns__text
+      top: 410%
   .btns_item--5
     top: 0.5% !important
     left: 45.3% !important
+    .btns__text
+      top: 500%
 </style>

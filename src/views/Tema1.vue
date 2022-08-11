@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Datos e Información
+      h1(data-aos="fade-right") Datos e Información
 
     p.mb-5 Los datos pueden representarse en un número, una imagen, una declaración que no se procesa, puede ser un nombre, el contenido de un correo electrónico, una dirección, una cifra de ventas, cualquier elemento de esa naturaleza. Por ejemplo, si imprime un paquete de recibos de las últimas transacciones y observa el valor total, tendría un conjunto de datos.
 
@@ -21,7 +21,7 @@
     p.mb-5 Se debe tener presente que los datos recopilados deben ser fiables y válidos, esto es parte de un proceso profundo y complejo, en el que los analistas separan los datos malos de los buenos, los importantes de los no importantes; el trigo de la paja, en otras palabras.      
 
     .row.mb-5
-      .col-lg-6.up
+      .col-lg-6
         .color-fondo.bg-color(data-aos="fade-down")
           .color-fondo__texto   
             span.etiqueta <b>Solo trabajando con datos "buenos"</b>
@@ -39,14 +39,14 @@
     .row.justify-content-center.mb-5
       .col-lg-5.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img03.svg' alt='AvatarTop')
-          .tarjeta.color-acento-botones
+          img.img120(src='@/assets/curso/tema1/img03.svg' alt='AvatarTop')
+          .tarjeta.color_tarjeta1-t1 
             .p-5
               p <b>Los datos son esencialmente los hechos simples y las estadísticas recopiladas durante las operaciones de una empresa,</b> que se pueden utilizar para medir/registrar una amplia gama de actividades empresariales, tanto internas como externas, si bien los datos en sí mismos pueden no ser muy informativos, son la base de todos los informes y, como tales, son cruciales en los negocios.
 
       .col-lg-5.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
-          img(src='@/assets/curso/tema1/img04.svg' alt='AvatarTop')
+          img.img120(src='@/assets/curso/tema1/img04.svg' alt='AvatarTop')
           .tarjeta.color-acento-contenido
             .p-5
               p <b>Los datos son las métricas que se relacionan con la interacción del cliente,</b> la cantidad de trabajos, la cantidad de consultas, los ingresos recibidos, los gastos incurridos, etc. para conocer las interacciones con el cliente, son necesarios los datos, por esto no se puede subestimar, ya que proporcionan la base para reportar la información requerida en las operaciones comerciales.
@@ -324,7 +324,7 @@
 
     .row.mb-5.justify-content-center
       .col-sm-6.col-xl-5.mb-4.mb-sm-0.border_tar-t1-2
-        .tarjeta.tarjeta-slide.derecha.color-acento-contenido.p-5(@mouseover="indicadorTarjetaSlide = false")
+        .tarjeta.tarjeta-slide.derecha.color_tarjeta1-t1-2.p-5(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img20.svg')})`}")
             .tarjeta-slide__contenido.p-0.p-xl-4

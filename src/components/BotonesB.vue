@@ -117,26 +117,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.btns_item--0 .li2e
-  display: none
-.btns_item--1 .li1c, .btns_item--1 .li2e
-  display: none
-.btns_item--2 .li1b, .btns_item--2 .li1c
-  display: none
-.btns_item--3 .li1c, .btns_item--3 .li2e
-  display: none
-.btns_item--4 .li1c, .btns_item--4 .li2e
-  display: none
-.btns_item--5 .li1c, .btns_item--5 .li2e
-  display: none
-.btns_item--6 .li1b, .btns_item--6 .li1c
-  display: none
-.btns_item--7 .li1c, .btns_item--7 .li2e
-  display: none
-.btns_item--8 .li1b, .btns_item--8 .li1c
-  display: none
-.btns_item--9 .li2e
-  display: none
 
 .btns
   position: relative
@@ -158,7 +138,6 @@ export default {
     height: 120px
     z-index: 100
     line-height: 1.2em
-    border-radius: 14px
     transform: translate(-50%)
     @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
       width: 260px
@@ -166,37 +145,49 @@ export default {
       line-height: 1.2em
 @media (max-width: $bp-max-md)
   .btns__item
-    width: 13% !important
-    padding: 13%
-
+    width: 7% !important
+    padding: 7%!important
   .btns_item--0
-    top: 0.5% !important
-    left: 2.5% !important
+    top: 2% !important
+    left: 7% !important
+    .btns__text
+      left: 300%
   .btns_item--1
-    top: 0.5% !important
-    left: 15.5% !important
+    top: 2% !important
+    left: 25% !important
+    .btns__text
+      left: 180%
   .btns_item--2
-    top: 0.5% !important
-    left: 18.3% !important
+    top: 2% !important
+    left: 43% !important
   .btns_item--3
-    top: 0.5% !important
-    left: 21.5% !important
+    top: 2% !important
+    left: 61% !important
+    .btns__text
+      left: -50%
   .btns_item--4
-    top: 0.5% !important
-    left: 31.1% !important
+    top: 2% !important
+    left: 79% !important
+    .btns__text
+      left: -200%
   .btns_item--5
-    top: 0.5% !important
-    left: 45.3% !important
+    top: 12% !important
+    left: 16% !important
+    .btns__text
+      left: 250%
   .btns_item--6
-    top: 0.5% !important
-    left: 58.3% !important
+    top: 12% !important
+    left: 35% !important
+    .btns__text
+      left: 100%
   .btns_item--7
-    top: 0.5% !important
-    left: 61.5% !important
+    top: 12% !important
+    left: 53% !important
+    .btns__text
+      left: -10%
   .btns_item--8
-    top: 0.5% !important
-    left: 78.3% !important
-  .btns_item--9
-    top: 0.5% !important
-    left: 91.5% !important
+    top: 12% !important
+    left: 71% !important
+    .btns__text
+      left: -150%
 </style>

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 7
-      h1 Normatividad
+      h1(data-aos="fade-right") Normatividad
 
     p El campo de la seguridad y salud en el trabajo establece estándares para ordenar la eliminación, mitigación o sustitución de los peligros en el lugar de trabajo, donde se cubren no sólo las disposiciones de primeros auxilios y la operación segura de maquinaria pesada, sino también la prevención de infecciones, las mejores prácticas ergonómicas y los métodos para responder a la violencia en el lugar de trabajo.
 
@@ -31,28 +31,28 @@
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
       .tarjeta-avatar
-        img.img-t.mx-auto(src='@/assets/curso/tema7/img01.svg' alt='AvatarTop')
+        img.img122.mx-auto(src='@/assets/curso/tema7/img01.svg' alt='AvatarTop')
         .tarjeta.bg_color1.h-500
           .text-black.p-4.p-xl-3.p-xxl-4
             h4.mt-4 Equipos de protección
             p.mt-4.mt-lg-0 Es responsabilidad del empleador asegurarse de que los trabajadores cuenten con el equipo de protección personal requerido para trabajar de manera segura. Según el trabajo y el entorno laboral, esto puede incluir dispositivos de protección contra caídas, cascos, ropa de alta visibilidad o guantes de seguridad.
 
       .tarjeta-avatar
-        img.img-t.mx-auto(src='@/assets/curso/tema7/img02.svg' alt='AvatarTop')
+        img.img122.mx-auto(src='@/assets/curso/tema7/img02.svg' alt='AvatarTop')
         .tarjeta.bg_color1.h-500
           .text-black.p-4.p-xl-3.p-xxl-4
             h4.mt-4 Procedimientos de seguridad
             p.mt-4.mt-lg-0 Se debe garantizar la operación segura del equipo de trabajo, los procedimientos de seguridad garantizan que los empleados puedan usar maquinaria pesada, herramientas eléctricas y otros equipos de trabajo con un riesgo mínimo de lesiones. Esto incluye no solo el manejo adecuado del equipo, sino también inspecciones y mantenimientos regulares para garantizar que funcione de manera óptima.
 
       .tarjeta-avatar
-        img.img-t.mx-auto(src='@/assets/curso/tema7/img03.svg' alt='AvatarTop')
+        img.img122.mx-auto(src='@/assets/curso/tema7/img03.svg' alt='AvatarTop')
         .tarjeta.bg_color1.h-500
           .text-black.p-4.p-xl-3.p-xxl-4        
             h4.mt-4 Hidratación
             p.mt-4.mt-lg-0 Mantener la hidratación, dado que están en el trabajo durante largos períodos de tiempo y los trabajadores corren el riesgo de deshidratarse si no se les proporciona agua potable limpia. Si bien esto afecta a todos los trabajadores, es especialmente importante para aquellos que realizan un trabajo físico intenso, usan equipo de protección personal pesado o trabajan en ambientes con altas temperaturas.
 
       .tarjeta-avatar
-        img.img-t.mx-auto(src='@/assets/curso/tema7/img04.svg' alt='AvatarTop')
+        img.img122.mx-auto(src='@/assets/curso/tema7/img04.svg' alt='AvatarTop')
         .tarjeta.bg_color1.h-500
           .text-black.p-4.p-xl-3.p-xxl-4
             h4.mt-4 Movimientos corporales        
@@ -60,7 +60,7 @@
 
     h5.mb-5 A continuación, se mencionan las normas más relevantes impuestas en Colombia relacionadas con este fin: 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4
       .col-lg-10
         LineaTiempoE.color-acento-contenido
           .row(titulo="2012" subtitulo="")
@@ -135,6 +135,8 @@
               p <b>Resolución 0312</b>
               p En esta se deroga la Resolución 1111 de 2017,  definiendo nuevos estándares mínimos del SGSST.
 
+    Separador
+
     #t_7_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
       h2 7.1	Seguridad y salud en el trabajo (posturas)
 
@@ -156,7 +158,7 @@
         .cajon.color-acento-contenido.p-5.mb-4
           .row.justify-content-center.align-items-center
             .col-lg-11 
-              .h4.mb-4 Los efectos de una mala postura son:
+              .h5.mb-4 Los efectos de una mala postura son:
               ul.lista-ul
                 li
                   i.fas.far.fa-check
@@ -195,7 +197,7 @@
         .cajon.color-acento-contenido.p-5.mb-4
           .row.justify-content-center.align-items-center
             .col-lg-11 
-              .h4.mb-4 Además, al momento de realizar actividades laborales de pie, es importante considerar las siguientes recomendaciones:
+              .h5.mb-4 Además, al momento de realizar actividades laborales de pie, es importante considerar las siguientes recomendaciones:
               ul.lista-ul
                 li
                   i.fas.far.fa-check
@@ -226,7 +228,7 @@
         .cajon.color-acento-contenido.p-5.mb-4
           .row.justify-content-center.align-items-center
             .col-lg-11 
-              .h4.mb-4 Por esto es importante aplicar las siguientes recomendaciones cuando realices actividades laborales en postura sentada:
+              .h5.mb-4 Por esto es importante aplicar las siguientes recomendaciones cuando realices actividades laborales en postura sentada:
               ul.lista-ul
                 li
                   i.fas.far.fa-check
@@ -247,7 +249,9 @@
                   i.fas.far.fa-check
                   p.m-0.ms-3 Mover la silla cerca del escritorio para evitar estirar la parte superior del cuerpo hacia adelante.
 
-    p.mb-5 A pesar de los mejores esfuerzos que realicen los empleadores, es necesario el compromiso del empleado siguiendo los hábitos saludables y las recomendaciones, además es esencial buscar una opinión del médico de salud ocupacional y fisioterapeuta si en algún momento presenta algún síntoma o molestia que pueda tratarse a tiempo. 
+    p A pesar de los mejores esfuerzos que realicen los empleadores, es necesario el compromiso del empleado siguiendo los hábitos saludables y las recomendaciones, además es esencial buscar una opinión del médico de salud ocupacional y fisioterapeuta si en algún momento presenta algún síntoma o molestia que pueda tratarse a tiempo. 
+
+    Separador
 
     #t_7_2.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
       h2 7.2	Seguridad ambiental (uso eficiente del papel)
@@ -260,15 +264,15 @@
       .col-lg-6.col-xl-7.col-xxl-6
         p.mb-0 <b>Una de las estrategias para reducir el desperdicio de papel en una oficina es:</b>
 
-    .row.mb-5
+    .row
       BotonesB3
 
     .row.justify-content-center.mb-4       
       .col-lg-10 
-        .cajon.color-acento-contenido.p-5.mb-4
+        .cajon.color-acento-contenido.p-5.mb-4.mt_3
           .row.justify-content-center.align-items-center
             .col-lg-11 
-              .h4.mb-4 Para asegurarse de que el papel se recicla, se debe:
+              .h5.mb-4 Para asegurarse de que el papel se recicla, se debe:
               ul.lista-ul
                 li
                   i.fas.far.fa-check

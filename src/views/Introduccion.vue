@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span
           i.fas.fa-info
-      h1 Introducción
+      h1(data-aos="fade-right") Introducción
 
     p.mb-5 En este componente de formación se abordarán los conceptos básicos que permitirán el tratamiento de la información y la toma de decisiones, de acuerdo con las necesidades, seguridad e impacto dentro de la organización y la normatividad legal vigente.
   

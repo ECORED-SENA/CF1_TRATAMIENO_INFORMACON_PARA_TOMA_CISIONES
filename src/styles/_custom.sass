@@ -30,9 +30,7 @@
     top: -14%
     bottom: -10%
     left: -4%
-    right: 49%
-    @media screen and ( max-width: 992px )
-      right: -4%
+    right: -2%
   &__texto
     position: relative
     *
@@ -98,7 +96,7 @@
     left: -2%
     right: 64%
     @media screen and ( max-width: 992px )
-      bottom: -9%
+      bottom: -5%
       left: -3%
       right: -1%
       top: -15px
@@ -120,13 +118,21 @@
   width: auto
   height: auto  
 
-.tarjeta.color-acento-botones 
+.color_tarjeta1-t1 
     background-color: #E5FFF4
     border-radius: 0px
 
 .tarjeta.color-acento-contenido 
     background-color: #C2F4FC
     border-radius: 0px
+.tarjeta.color-acento-contenido *
+    color: #12263F
+
+.img120
+  max-width: 120px
+
+.color_tarjeta1-t1-2 
+    background-color: #77D8AE
 
 .bg_1
   background-color: #05339E
@@ -326,6 +332,8 @@
 
 .h-500
   height: 500px!important
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    height: 530px!important
 
 .slyder-f__btn i 
     color: #EECF52
@@ -347,3 +355,27 @@
 .border_tar-t1-2
   .color-acento-contenido
     border-radius: 20px!important
+
+hr:not([size]) 
+    height: 5px
+    width: 85px
+    background-color: #13B770
+    opacity: 1.25
+
+.pasos-a__linea .left-bottom 
+    left: calc(-50% + 4px)
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+      left: calc(-50% + 3px)
+.pasos-a__linea .top-left 
+    left: calc(-50% + 4px)
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+      left: calc(-50% + 3px)
+
+.img122
+  max-width: 122px
+  top: 2%!important
+
+.mt_3
+  margin-top: 40px
+  @media (max-width: $bp-max-md)
+    margin-top: 1310px!important

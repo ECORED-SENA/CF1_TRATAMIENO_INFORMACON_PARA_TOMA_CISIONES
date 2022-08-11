@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Herramientas ofimáticas
+      h1(data-aos="fade-right") Herramientas ofimáticas
 
     p Este tipo de herramientas son una ayuda para la realización de tareas de oficina, aportan a la gestión, creación y manipulación de grandes cantidades de datos y documentos, además con estas se pueden crear presentaciones, informes, bases de datos, textos, hojas de cálculo, correo electrónico, entre otros. Se clasifican así:          
 

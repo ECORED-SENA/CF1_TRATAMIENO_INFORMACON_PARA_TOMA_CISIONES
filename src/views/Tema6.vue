@@ -5,12 +5,12 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 6
-      h1 Documentación de datos
+      h1(data-aos="fade-right") Documentación de datos
 
     p.mb-5 La documentación de los datos es fundamental para garantizar una comprensión común de la información contenida en los datos y para asegurar la confiabilidad de esa información. Los analistas comerciales a menudo son responsables de crear documentación de datos para proyectos de sistemas de información y la alineación de esta documentación con procesos y reglas de gobierno. La clasificación de la documentación de datos:
 
     .row.mb-5.justify-content-center
-      .col-lg-7
+      .col-lg-7.mb-4.mb-lg-0
         LineaTiempoD.color-acento-contenido
           p.text-small(numero="1" titulo="Diagramas de flujo de datos") El seguimiento del flujo de datos a través de una aplicación incluye la identificación de las fuentes, transformaciones y destinos de los datos que serán compatibles. Los destinos incluyen tanto los almacenes de datos como los procesos posteriores que utilizan los datos. Las fuentes de datos pueden compartirse dentro y entre la organización o pueden involucrar entidades externas. Incluyen entrada de datos, bases de datos existentes, archivos de computadora y flujos de datos de aplicaciones externas. Una vez que se determinan las fuentes, se definen los procesos que deben ocurrir para transformar o manipular los datos. 
           
@@ -92,7 +92,7 @@
     p.mb-4 Tratamiento de datos está compuesto el acceso, la recopilación, el uso, el procesamiento, el almacenamiento, el intercambio, la distribución, la transferencia, la divulgación, la seguridad, la destrucción o la eliminación de cualquier información o datos personales, sensibles o confidenciales, ya sea en formato electrónico o en cualquier otra forma o medio.
 
     .row.justify-content-center.mb-5
-      .col-lg-8.up.bg_cajon-color4.ms-3
+      .col-lg-8.bg_cajon-color4.ms-3
         .color-fondo.bg-color(data-aos="fade-down")
           .color-fondo__texto 
             | La adquisición de datos implica recopilar o agregar a las existencias de datos, existen varios métodos de adquisición de datos como es el procesamiento de datos que refiere a una serie de acciones o pasos realizados en los datos para verificar, organizar, transformar, integrar y extraer datos en un formato de salida adecuado para un uso posterior. Los métodos de procesamiento deben documentarse rigurosamente para garantizar la utilidad e integridad de los datos.
@@ -107,7 +107,7 @@
             p El análisis de datos implica acciones y métodos realizados sobre datos que ayudan a describir hechos, detectar patrones, desarrollar explicaciones y probar hipótesis, esto incluye la garantía de calidad de datos, el análisis de datos estadísticos, el modelado y la interpretación de resultados.
 
     .row.align-items-center.mb-5
-      .col-lg-8.up.bg_cajon-color5.mb-4.mb-lg-0
+      .col-lg-8.bg_cajon-color5.mb-4.mb-lg-0
         .color-fondo.bg-color(data-aos="fade-down")
           .color-fondo__texto   
             | Tratar de clasificar los datos en patrones comúnmente conocidos es de gran ayuda y está íntimamente relacionado con el tratamiento estadístico de los datos. Esto se debe a que la distribución de probabilidad normal ocurre con mucha frecuencia y son las distribuciones subyacentes en la mayoría de los experimentos médicos, sociales y físicos.
@@ -124,7 +124,7 @@
       .col-lg-2
         figure
           img.img-t.mx-auto(src='@/assets/curso/tema6/img10.svg')
-      .col-lg-8.up.bg_cajon-color6
+      .col-lg-8.bg_cajon-color6
         .color-fondo.bg-color(data-aos="fade-down")
           .color-fondo__texto   
             | El tratamiento estadístico de los datos también implica describir los datos, y la mejor forma de hacerlo es a través de las medidas de tendencia central como la media, la mediana y la moda, estos ayudan a explicar en pocas palabras cómo se concentran los datos. El rango, la incertidumbre y la desviación estándar permiten la compresión de la distribución de los datos. Por lo tanto, dos distribuciones con la misma media pueden tener una desviación estándar muy diferente, lo que muestra qué tan bien se concentran los puntos de datos alrededor de la media.
