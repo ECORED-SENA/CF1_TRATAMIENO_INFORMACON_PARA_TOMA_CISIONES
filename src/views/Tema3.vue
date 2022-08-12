@@ -13,12 +13,12 @@
       .py-4.py-md-5(titulo="Herramienta de procesador de textos" :icono="require('@/assets/curso/tema3/img01.svg')")
         .row.justify-content-around
           .col-md-7.mb-4.mb-md-0
-            h4 Herramienta de procesador de textos
-            p Estas permiten la creación de los documentos de texto, ayudando a crear, formatear, manipular y guardar archivos de texto. El más común es Microsoft Word, que puede ser instalado o en la nube. Y como ejemplos también pueden encontrarse: Google Docs, OpenOffice, Abiword, Word perfect, WordPad, Bloc de Notas etc.
+            h4(data-aos="fade-right") Herramienta de procesador de textos
+            p(data-aos="fade-right") Estas permiten la creación de los documentos de texto, ayudando a crear, formatear, manipular y guardar archivos de texto. El más común es Microsoft Word, que puede ser instalado o en la nube. Y como ejemplos también pueden encontrarse: Google Docs, OpenOffice, Abiword, Word perfect, WordPad, Bloc de Notas etc.
         
           .col-md-3
             figure
-              img.img-t.mx-auto(src='@/assets/curso/tema3/img05.svg', alt='Texto que describa la imagen')
+              img.img-t.mx-auto(data-aos="fade-left")(src='@/assets/curso/tema3/img05.svg', alt='Texto que describa la imagen')
               
       .py-4.py-md-5(titulo="Herramienta de presentación" :icono="require('@/assets/curso/tema3/img02.svg')")
         .row.justify-content-around
@@ -53,7 +53,7 @@
 
     .row.justify-content-center
       .col-lg-8
-        ImagenInfografica.color-secundario.mb-5
+        ImagenInfografica.color-secundario.mb-5(data-aos="fade-down")
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/tema3/img09.svg', alt='Texto que describa la imagen')
@@ -76,7 +76,7 @@
           .tarjeta.color-acento-botones.p-3(x="47.2%" y="52.4%" numero="6")
             p Mantener registros de asistencia y control documental. 
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-lg-2.col-xl-3.col-xxl-2
         .bg_1
           .row.align-items-center
@@ -88,16 +88,17 @@
 
     p Una celda es una parte de una tabla donde se cruzan una fila y una columna, está diseñada para contener una parte específica de los datos dentro de un registro, a veces se hace referencia a una celda como campo. 
 
-    p <b>Es importante que, al usar herramientas de hojas de cálculo, el reconocimiento de la ubicación con las opciones y los menús disponibles, esto para un mejor manejo y uso.</b>
+    p.mb-4 <b>Es importante que, al usar herramientas de hojas de cálculo, el reconocimiento de la ubicación con las opciones y los menús disponibles, esto para un mejor manejo y uso.</b>
 
-    .row.justify-content-center.align-items-center.mb-5         
-      .col-lg-10 
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.m_bloque-imgreves.m_bloque-textoreves1(data-aos="flip-down")
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema3/img10.svg')})`}"
-          )
-          .bloque-texto-g__texto.p-5
-            p En las celdas se pueden realizar cálculos sencillos con el fin de realizar seguimiento a los datos que se dispongan en la hoja de cálculo, además permite el ordenamiento, creación de filtros, tablas y gráficos. Las celdas pueden contener números, texto o fórmulas. Los datos se escriben en las celdas y se agrupan en filas y columnas.
+    .row.justify-content-center
+      .col-lg-10
+        .bloque-texto-a.color-acento-contenido.p-md-5.mb-5.padding_2 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-8.mb-4.mb-lg-0
+              .bloque-texto-a__texto.px-4.py-4.py-lg-5
+                p En las celdas se pueden realizar cálculos sencillos con el fin de realizar seguimiento a los datos que se dispongan en la hoja de cálculo, además permite el ordenamiento, creación de filtros, tablas y gráficos. Las celdas pueden contener números, texto o fórmulas. Los datos se escriben en las celdas y se agrupan en filas y columnas.             
+            .col-lg-4
+              img.img-t.mx-auto(src='@/assets/curso/tema3/img10.svg' alt='AvatarTop') 
 
     .row.align-items-center.mb-5
       .col-lg-7.up.bg_cajon-color1
@@ -108,12 +109,12 @@
             br
             | A las columnas, normalmente se les asigna un tipo de datos, que determinan el contenido de cada celda dentro de esa columna. Por lo tanto, todas las celdas dentro de una columna compartirán un tipo de datos. Especialmente si con estas se requiere hacer cálculos, para un posterior análisis de la información.
       .col-lg-5.mt-5.mt-col-lg-0
-        figure
+        figure(data-aos="fade-up")
           img(src='@/assets/curso/tema3/img11.png')
 
     .row.align-items-center.mb-5
       .col-lg-5.mb-5.mb-lg-0
-        figure
+        figure(data-aos="fade-up")
           img(src='@/assets/curso/tema3/img12.png')
       .col-lg-7.up.bg_cajon-color2
         .color-fondo.bg-color(data-aos="fade-down")
@@ -125,7 +126,7 @@
 
     p <b>En las hojas de cálculo también se puede determinar las celdas que deben permanecer fijas al momento de hacer los cálculos.</b>
 
-    .row.mb-4
+    .row.mb-4(data-aos="fade-right")
       .col-lg-3.col-xl-4.col-xxl-3
         .bg_1
           .row.align-items-center
@@ -141,7 +142,7 @@
 
     .row.align-items-center.mb-5
       .col-lg-7
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
           .row.justify-content-evenly(titulo="Almacenes de datos")
             .col-md-3.mb-4.mb-md-0
               figure
@@ -178,7 +179,7 @@
               p Estas combinan tecnología de comunicación, personas y computadoras para ayudar a realizar actividades de oficina, como preparar comunicaciones escritas, imprimir, programar o crear informes.          
       .col-lg-5
         figure
-          img(src='@/assets/curso/tema3/img18.png')
+          img(src='@/assets/curso/tema3/img18.png')(data-aos="fade-left")
 
     h5.mb-5 Cada sistema de información incluye varios componentes claves, entre estos están el <em>Hardware</em>, <em>Software</em>, telecomunicaciones, personas y datos, que se detalla a continuación:
 

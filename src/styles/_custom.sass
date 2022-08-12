@@ -237,11 +237,10 @@
 .bloque-texto-g.color-primario
     background-color: #05339E
 
-.tarjeta-slide.color-acento-contenido .tarjeta-slide__img 
-    margin-right: -75px
-
-.tarjeta-slide.color-primario .tarjeta-slide__img 
-    margin-right: -75px
+.tarjeta-slide__img
+    background-position: left
+    @media (max-width: $bp-max-md)
+      margin-left: -26px
   
 .padding_1
   padding: 2.5rem !important
@@ -256,6 +255,8 @@
     transform: translateX(150%)
     margin: 16px auto
     z-index: 2
+    @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+      transform: translateX(118%)
 
 .tabs-b__tab 
     border-right: 4px solid #13B770
@@ -376,6 +377,31 @@ hr:not([size])
   top: 2%!important
 
 .mt_3
-  margin-top: 40px
+  margin-top: 18%
   @media (max-width: $bp-max-md)
-    margin-top: 1310px!important
+    margin-top: 420%!important
+
+.padding_2
+  padding: 3rem !important
+  @media (max-width: $bp-max-md)
+    padding: 2rem !important
+
+.bloque-texto-a.color-acento-contenido 
+  background-color: #13B770
+.bloque-texto-a.color-acento-contenido:before 
+  background-color: #F3FBF8
+  right: -3px
+.bloque-texto-a:before 
+  left: 56%
+
+.mb_tarflip
+  margin-bottom: 15px
+  @media (max-width: $bp-max-md)
+    margin-bottom: -85px
+
+.bloque-texto-a.color-primario 
+  background-color: #05339E
+.bloque-texto-a.color-primario:before 
+  background-color: #F2F5FA
+.bloque-texto-a:before 
+  left: 56%

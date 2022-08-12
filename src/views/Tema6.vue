@@ -10,7 +10,7 @@
     p.mb-5 La documentación de los datos es fundamental para garantizar una comprensión común de la información contenida en los datos y para asegurar la confiabilidad de esa información. Los analistas comerciales a menudo son responsables de crear documentación de datos para proyectos de sistemas de información y la alineación de esta documentación con procesos y reglas de gobierno. La clasificación de la documentación de datos:
 
     .row.mb-5.justify-content-center
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         LineaTiempoD.color-acento-contenido
           p.text-small(numero="1" titulo="Diagramas de flujo de datos") El seguimiento del flujo de datos a través de una aplicación incluye la identificación de las fuentes, transformaciones y destinos de los datos que serán compatibles. Los destinos incluyen tanto los almacenes de datos como los procesos posteriores que utilizan los datos. Las fuentes de datos pueden compartirse dentro y entre la organización o pueden involucrar entidades externas. Incluyen entrada de datos, bases de datos existentes, archivos de computadora y flujos de datos de aplicaciones externas. Una vez que se determinan las fuentes, se definen los procesos que deben ocurrir para transformar o manipular los datos. 
           
@@ -23,7 +23,7 @@
           p.text-small(numero="5" titulo="Modelo de relación de entidad lógica") Este incluye las entidades que se necesitan para apoyar una solicitud, la información acerca de cada una de las entidades (incluyendo atributos y los identificadores únicos), y las relaciones que se necesitan entre las entidades. Este tipo de modelo puede estar informado por el modelo de datos conceptuales, pero la estructura de entidad-relación identificada se modifica para admitir (en un alto nivel) el dominio de la solución técnica.
 
           p.text-small(numero="6" titulo="Modelo de datos físicos") Un modelo de datos físicos proporciona especificaciones detalladas para la estructura de datos que respalda las operaciones comerciales. El modelo de datos lógicos, generalmente completado con los requisitos funcionales del proyecto de referencia, se amplía y modifica para ajustarse a la arquitectura de datos que se utilizará para almacenar los datos. Esto podría reflejar cualquier tipo de arquitectura: las bases de datos relacionales o los almacenes de datos XML requieren esta especificación. 
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema6/img01.svg')
     
@@ -32,7 +32,7 @@
     #t_6_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
       h2 6.1	Métodos técnicos y sistemas de ordenación
 
-    span.etiqueta <b>Los sistemas de gestión de bases de datos (DBMS) son </b>
+    span.etiqueta(data-aos="fade-right") <b>Los sistemas de gestión de bases de datos (DBMS) son </b>
     | sistemas de <em>software</em> que se utilizan para almacenar, recuperar y ejecutar consultas sobre datos, sirven como interfaz entre un usuario final y una base de datos, permitiendo a los usuarios crear, leer, actualizar y eliminar datos en la base de datos.
 
     p.mb-5.mt-4 En estos se administran los datos, el motor de la base de datos y el esquema de la base de datos, lo que permite que los usuarios y otros programas manipulen o extraigan los datos. Esto ayuda a proporcionar seguridad de datos, integridad de datos, concurrencia y procedimientos uniformes de administración de datos.
@@ -118,12 +118,12 @@
         .row
           .col-lg-6
             figure
-              img.img-t.mx-auto(src='@/assets/curso/tema6/img09.svg')
+              img.img-t.mx-auto(src='@/assets/curso/tema6/img09.svg')(data-aos="fade-up")
 
     .row.justify-content-around.align-items-center.mb-5
       .col-lg-2
         figure
-          img.img-t.mx-auto(src='@/assets/curso/tema6/img10.svg')
+          img.img-t.mx-auto(src='@/assets/curso/tema6/img10.svg')(data-aos="fade-up")
       .col-lg-8.bg_cajon-color6
         .color-fondo.bg-color(data-aos="fade-down")
           .color-fondo__texto   
@@ -132,7 +132,7 @@
             br
             | El tratamiento estadístico de los datos es un aspecto importante de toda la experimentación actual y es necesaria una comprensión profunda para realizar los experimentos correctos con las inferencias correctas a partir de los datos obtenidos.
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-lg-3.col-xl-4.col-xxl-3
         .bg_1
           .row.align-items-center
@@ -143,7 +143,7 @@
                   h4.m_block.text-white.mt_1 Procedimiento de registro
 
     | Expandir las fronteras del conocimiento científico es una actividad comunitaria, este es un principio importante a tener en cuenta al adquirir y archivar datos. Los datos deben registrarse de manera que no solo sean comprensibles para el individuo, sino también para los colaboradores de esa persona y para otras personas fuera del círculo inmediato. 
-    span.etiqueta <b>Se debe tener precaución de no cometer algunos de los siguientes errores:</b>
+    span.etiqueta(data-aos="fade-right") <b>Se debe tener precaución de no cometer algunos de los siguientes errores:</b>
 
     .row.align-items-center.mt-5
       .col-lg-6
@@ -174,7 +174,7 @@
                 | No se ha escrito mucho sobre buenas prácticas para la gestión y retención de datos, las grandes colaboraciones de investigación suelen tener planes de gestión de datos cuidadosamente diseñados, y el tamaño de su grupo les brinda la oportunidad de tener personas que dedican una gran cantidad de esfuerzo a mantener la integridad de los datos. Por otro lado, hay orientación limitada disponible para colaboraciones más pequeñas que pueden no tener los mismos recursos para mantener la integridad de los datos.
         
       .col-lg-5.mb-5
-        figure
+        figure(data-aos="fade-left")
           img.img-t.mx-auto(src='@/assets/curso/tema6/img11.svg')
 
 

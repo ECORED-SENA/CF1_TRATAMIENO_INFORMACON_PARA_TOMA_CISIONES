@@ -3,8 +3,12 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
+    .row.justify-content-center
+      .col-lg-11
+        p A continuación, se presenta el diagrama que representa el resumen de las temáticas más importantes desarrolladas en el componente formativo: 
+
     .row.justify-content-center.mt-5
-      .col-lg-10.mb-5
+      .col-lg-11.mb-5
         figure
           img(src="@/assets/curso/sintesis/sintesis.svg", alt="alt")
       .col-auto

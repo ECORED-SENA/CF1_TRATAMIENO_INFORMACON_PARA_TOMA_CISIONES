@@ -9,25 +9,25 @@
 
     p El campo de la seguridad y salud en el trabajo establece estándares para ordenar la eliminación, mitigación o sustitución de los peligros en el lugar de trabajo, donde se cubren no sólo las disposiciones de primeros auxilios y la operación segura de maquinaria pesada, sino también la prevención de infecciones, las mejores prácticas ergonómicas y los métodos para responder a la violencia en el lugar de trabajo.
 
-    p <b>En el siguiente video se explica en qué consiste el sistema de gestión de la seguridad y salud en el trabajo:</b>
+    p(data-aos="fade-left") <b>En el siguiente video se explica en qué consiste el sistema de gestión de la seguridad y salud en el trabajo:</b>
 
     .row.justify-content-center.mb-5 
       .col-lg-10
         figure.mb-4
-        .video
+        .video(data-aos="fade-up")
           iframe(width="560" height="315" src="https://www.youtube.com/embed/5CF3HZdu6Bc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.justify-content-center
       .col-lg-8
-        h5 Los hábitos saludables en el ambiente laboral permitirán la prevención de riesgo de salud en el trabajo:
+        h5(data-aos="fade-left") Los hábitos saludables en el ambiente laboral permitirán la prevención de riesgo de salud en el trabajo:
 
     .row.justify-content-center.mb-5
       .col-lg-10
         figure.mb-5
-        .video
+        .video(data-aos="fade-up")
           iframe(width="560" height="315" src="https://www.youtube.com/embed/k5sPUBB5QgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    h5.mb-5 Algunos de los temas cubiertos por las normas se seguridad y salud en el trabajo son los siguientes:
+    h5.mb-5(data-aos="fade-left") Algunos de los temas cubiertos por las normas se seguridad y salud en el trabajo son los siguientes:
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
       .tarjeta-avatar
@@ -58,11 +58,11 @@
             h4.mt-4 Movimientos corporales        
             p.mt-4.mt-lg-0 Buenos movimientos corporales, pues los trastornos musculoesqueléticos son un tipo extremadamente común de lesión en el lugar de trabajo. Para prevenirlos, los trabajadores deben seguir las mejores prácticas ergonómicas. Esto incluye técnicas seguras de levantamiento, buena postura y evitar movimientos repetitivos mientras realiza sus tareas laborales.
 
-    h5.mb-5 A continuación, se mencionan las normas más relevantes impuestas en Colombia relacionadas con este fin: 
+    h5.mb-5(data-aos="fade-right") A continuación, se mencionan las normas más relevantes impuestas en Colombia relacionadas con este fin: 
 
     .row.justify-content-center.mb-4
       .col-lg-10
-        LineaTiempoE.color-acento-contenido
+        LineaTiempoE.color-acento-contenido(data-aos="fade-up-right")
           .row(titulo="2012" subtitulo="")
             .col-lg-2.mb-4.mb-lg-0
               figure
@@ -142,7 +142,7 @@
 
     p.mb-4 La mala postura en el lugar de trabajo es una de las principales causas de dolor de espalda, además el estrés en el lugar de trabajo y puede provocar lesiones por esfuerzos repetitivos. Esto puede dar como resultado una mala salud de los empleados,  que en última instancia, conducirá a una reducción de la productividad, pérdida de tiempo y mayores costos comerciales.
 
-    h5.mb-5 La aplicación de las técnicas de postura y ergonomía en el lugar de trabajo ayudan a mejorar el entorno de trabajo y el bienestar en la jornada normal de trabajo.
+    h5.mb-5(data-aos="fade-left") La aplicación de las técnicas de postura y ergonomía en el lugar de trabajo ayudan a mejorar el entorno de trabajo y el bienestar en la jornada normal de trabajo.
 
     .row.justify-content-center.align-items-center.mb-5         
       .col-lg-10 
@@ -155,7 +155,7 @@
     
     .row.justify-content-center.mb-4       
       .col-lg-10 
-        .cajon.color-acento-contenido.p-5.mb-4
+        .cajon.color-acento-contenido.p-5.mb-4(data-aos="fade-down")
           .row.justify-content-center.align-items-center
             .col-lg-11 
               .h5.mb-4 Los efectos de una mala postura son:
@@ -184,17 +184,17 @@
 
     p En algunos casos, los nervios pueden verse afectados o inflamados, lo que da como resultado una variedad de sensaciones, desde calor y frío hasta entumecimiento y hormigueo en un área determinada, comúnmente las manos y los pies. Una característica del daño a los nervios es que a veces el síntoma no está en el lugar donde se está causando el daño. Por ejemplo, un nervio irritado en el cuello puede causar entumecimiento y hormigueo en el brazo o la mano.
 
-    p.mb-0 <b>Es necesario tener presente las siguientes recomendaciones para prevenir el riesgo biomecánico y ergonómico en el trabajo:</b>
+    p.mb-0(data-aos="fade-right") <b>Es necesario tener presente las siguientes recomendaciones para prevenir el riesgo biomecánico y ergonómico en el trabajo:</b>
 
     .row.justify-content-center.mb-4 
       .col-lg-10
         figure.mb-5
-        .video
+        .video(data-aos="fade-up")
           iframe(width="560" height="315" src="https://www.youtube.com/embed/6GjAyDBFT8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row.justify-content-center.mb-4         
       .col-lg-10 
-        .cajon.color-acento-contenido.p-5.mb-4
+        .cajon.color-acento-contenido.p-5.mb-4(data-aos="fade-down")
           .row.justify-content-center.align-items-center
             .col-lg-11 
               .h5.mb-4 Además, al momento de realizar actividades laborales de pie, es importante considerar las siguientes recomendaciones:
@@ -215,17 +215,17 @@
                   i.fas.far.fa-check
                   p.m-0.ms-3 Tirar los hombros hacia atrás acercando los omóplatos si están girados hacia adelante.
                 
-    p.mb-0 <b>Las condiciones ergonómicas en el puesto de trabajo también son necesarias, observa el siguiente video donde se presenta más detalle de estas:</b>
+    p.mb-0(data-aos="fade-right") <b>Las condiciones ergonómicas en el puesto de trabajo también son necesarias, observa el siguiente video donde se presenta más detalle de estas:</b>
 
     .row.justify-content-center.mb-4 
       .col-lg-10
         figure.mb-5
-        .video
+        .video(data-aos="fade-up")
           iframe(width="560" height="315" src="https://www.youtube.com/embed/k6w0cTVpazM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row.justify-content-center.mb-4       
       .col-lg-10 
-        .cajon.color-acento-contenido.p-5.mb-4
+        .cajon.color-acento-contenido.p-5.mb-4(data-aos="fade-down")
           .row.justify-content-center.align-items-center
             .col-lg-11 
               .h5.mb-4 Por esto es importante aplicar las siguientes recomendaciones cuando realices actividades laborales en postura sentada:
@@ -262,14 +262,14 @@
 
     .row.justify-content-center
       .col-lg-6.col-xl-7.col-xxl-6
-        p.mb-0 <b>Una de las estrategias para reducir el desperdicio de papel en una oficina es:</b>
+        p.mb-0(data-aos="fade-left") <b>Una de las estrategias para reducir el desperdicio de papel en una oficina es:</b>
 
-    .row
+    .row(data-aos="fade-up-right")
       BotonesB3
 
-    .row.justify-content-center.mb-4       
+    .row.justify-content-center.mb-4
       .col-lg-10 
-        .cajon.color-acento-contenido.p-5.mb-4.mt_3
+        .cajon.color-acento-contenido.p-5.mb-4.mt_3(data-aos="fade-down")
           .row.justify-content-center.align-items-center
             .col-lg-11 
               .h5.mb-4 Para asegurarse de que el papel se recicla, se debe:

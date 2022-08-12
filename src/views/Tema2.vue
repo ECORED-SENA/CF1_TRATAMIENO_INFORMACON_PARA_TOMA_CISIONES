@@ -43,18 +43,19 @@
 
       p.mb-5.mt-5 Cuando se dirige un negocio, hay mucho que hacer a diario, desde la gestión de los empleados, hasta el balance de los libros, cada día se enfrenta a un sinfín de responsabilidades para mantener el negocio en funcionamiento. 
 
-      .row.justify-content-center.align-items-center.mb-5         
-        .col-lg-10 
-          .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.m_bloque-imgreves.m_bloque-textoreves1(data-aos="flip-down")
-            .bloque-texto-g__img(
-              :style="{'background-image': `url(${require('@/assets/curso/tema2/img03.svg')})`}"
-            )
-            .bloque-texto-g__texto.p-5
-              p Afortunadamente, en la era digital, existen muchos programas y herramientas para ayudar a realizar un seguimiento de sus tareas y hacer que el flujo de trabajo y procesos sean más eficientes, por esto existen diferentes herramientas tecnológicas esenciales y cómo pueden aliviar parte del estrés de administrar un negocio.
+      .row.justify-content-center
+        .col-lg-10
+          .bloque-texto-a.color-primario.p-md-5.mb-5.padding_2 
+            .row.m-0.align-items-center.justify-content-between
+              .col-lg-8.mb-4.mb-lg-0
+                .bloque-texto-a__texto.px-4.py-4.py-lg-5
+                  p Afortunadamente, en la era digital, existen muchos programas y herramientas para ayudar a realizar un seguimiento de sus tareas y hacer que el flujo de trabajo y procesos sean más eficientes, por esto existen diferentes herramientas tecnológicas esenciales y cómo pueden aliviar parte del estrés de administrar un negocio.           
+              .col-lg-4
+                img.img-t.mx-auto(src='@/assets/curso/tema2/img03.svg' alt='AvatarTop') 
               
       p.mb-5 <b>Una herramienta electrónica, digital o física puede ampliar la capacidad humana para realizar tareas o generar productos. Por ejemplo:</b> procesador de textos, programa de presentación, programa de hoja de cálculo, programa de edición de gráficos, editor de imágenes, editor de películas, convertidor de formato de video, editores de diseño <em>web,</em> programas y plataformas de diseño <em>web,</em> lenguajes de <em>script</em> de diseño <em>web,</em> <em>applets web</em>, grabadora de voz, cámara de video digital, etc.
 
-      .row.mb-5
+      .row.mb-5(data-aos="fade-right")
         .col-lg-3.col-xl-4.col-xxl-3
           .bg_1
             .row.align-items-center
@@ -67,12 +68,12 @@
       p.mb-5 Existen tantas opciones de tecnología, herramientas y plataformas que ayudan a hacer crecer los negocios, por eso es importante identificar cual es la mejor opción que se puede implementar en cada contexto organizacional.
 
       .row.justify-content-center
-        .col-lg-8
+        .col-lg-8(data-aos="fade-down")
           h5.text-center A continuación, se presentan los tipos herramientas tecnológicas que pueden ayudar al desarrollo y crecimiento de en los contextos empresariales, con el fin de ahorrar tiempo y dinero:
 
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-4
         .col-lg-6
-          ImagenInfografica.color-secundario.mb-5
+          ImagenInfografica.color-secundario.mb-5(data-aos="fade-up")
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/tema2/img04.svg', alt='Texto que describa la imagen')
@@ -115,7 +116,7 @@
             .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="74.5%" y="60%")
               p <b>Colaboración de documentos:</b> permitiendo colaborar con otros, asegurando que todos trabajen desde la misma versión del mismo documento, trabajo en tiempo real con los demás, para sus interno o con los clientes.
    
-      .row.mb-5
+      .row.mb-5(data-aos="fade-right")
         .col-lg-3.col-xl-4.col-xxl-3
           .bg_1
             .row.align-items-center
@@ -125,21 +126,21 @@
                     i.fas.fa-caret-right
                     h4.m_block.text-white.mt_1 Técnicas de digitación
 
-      p La entrada de datos es un aspecto importante que requiere de técnica y práctica, con el fin de ingresar los datos de forma precisa, eficiente y rápida, lo primero que se debe tener es una buena postura cumpliendo las normas de ergonomía, y además reconocer el teclado con todos sus componentes, para adquirir la técnica adecuada de digitación se debe ser constante y para incrementar la habilidad, para lograrlo debe hacerse en tres etapas:
+      p.mb_tarflip La entrada de datos es un aspecto importante que requiere de técnica y práctica, con el fin de ingresar los datos de forma precisa, eficiente y rápida, lo primero que se debe tener es una buena postura cumpliendo las normas de ergonomía, y además reconocer el teclado con todos sus componentes, para adquirir la técnica adecuada de digitación se debe ser constante y para incrementar la habilidad, para lograrlo debe hacerse en tres etapas:
 
       .row
-        .col-lg-4
+        .col-lg-4(data-aos="fade-down")
           figure.mb-4
             img.img-num1.d-none.d-lg-block(src='@/assets/curso/tema2/img05.svg')
-        .col-lg-4
+        .col-lg-4(data-aos="fade-down")
           figure.mb-4
             img.img-num1.d-none.d-lg-block(src='@/assets/curso/tema2/img06.svg')
-        .col-lg-4
+        .col-lg-4(data-aos="fade-down")
           figure.mb-4
             img.img-num1.d-none.d-lg-block(src='@/assets/curso/tema2/img07.svg')
          
-    .row.justify-content-center.mb-5
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+    .row.justify-content-center.mb-4.mb-lg-5
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-up")
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -148,7 +149,7 @@
               h3.text-center.my-4 Etapa 1
               p.text-center.mb-5 Reconocer el teclado y aprender una técnica apropiada de digitación.
            
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-up")
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img09.svg')})`}")
@@ -156,7 +157,7 @@
               h3.text-center.my-4 Etapa 2
               p.text-center.mb-5 Enfocarse en la precisión.
 
-      .col-sm-6.col-xl-4.mb-4.mb-sm-0
+      .col-sm-6.col-xl-4.mb-4.mb-sm-0(data-aos="fade-up")
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img10.svg')})`}")
@@ -166,7 +167,7 @@
 
     p.mb-5 La entrada de datos es el proceso de actualizar información en algún aplicativo, documento, página, formulario, registro o base de datos,  para esto también se puede requerir de otros componentes como la computadora, <em>mouse,</em> pantalla, escáner u otra herramienta de ingreso de datos, esto con el fin de ingresar, procesar o archivar la información requerida y valorada como activo en las organizaciones.  Por lo tanto, es importante que los empleados de entrada de datos posean ciertas habilidades y estén calificados para realizar las actividades diarias para hacer bien el trabajo, existen varias responsabilidades y habilidades duras y blandas que pueden ser requeridas, por eso se listan a continuación.
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-lg-3.col-xl-4.col-xxl-3
         .bg_1
           .row.align-items-center
@@ -175,10 +176,11 @@
                 li
                   i.fas.fa-caret-right
                   h4.m_block.text-white.mt_1 Responsabilidades
-    .row
+
+    .row(data-aos="fade-up-right")
       BotonesB
 
-    .row.mb-4
+    .row.mb-4(data-aos="fade-right")
       .col-lg-2.col-xl-3.col-xxl-2
         .bg_1
           .row.align-items-center
@@ -217,16 +219,16 @@
                 h4 Atención a los detalles 
                 | Estos son la prioridad en un trabajo de entrada de datos.            
       .col-lg-5.mb-5
-        figure
+        figure(data-aos="fade-left")
           img.img-t.mx-auto(src='@/assets/curso/tema2/img14.svg') 
 
     p.mb-4 Cada día se debe mejorar sus habilidades de entrada de datos, para esto hay diferentes acciones que se pueden realizar, por lo cual se presentan algunos consejos que pueden resultar útiles para este fin: 
 
     .row.mb-5.justify-content-center
       .col-md-4.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/tema2/img15.svg')
-      .col-md-8.mb-5.mb-md-0
+      .col-md-8.mb-5.mb-md-0(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
           p.text-small.mt-3.mt-lg-0(numero="1" titulo="Mejorar las habilidades de mecanografía actuales") Tomar nota de la estructura de escritura actual y lenguaje corporal. Verificar que la postura y el posicionamiento de la mano son adecuados para una precisión y comodidad. De esta manera, no será necesario cambiar de posición, ni levantarse con tanta frecuencia, lo que debería aumentar la velocidad de escritura y  eficiencia.
           

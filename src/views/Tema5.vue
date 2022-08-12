@@ -22,7 +22,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-6
-        ImagenInfografica.color-secundario.mb-5
+        ImagenInfografica.color-secundario.mb-5(data-aos="fade-up")
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/tema5/img02.svg', alt='Texto que describa la imagen')
@@ -52,15 +52,16 @@
             p Hacer validaciones de conectividad de las redes datos.
 
     p.mb-5 Es necesario reconocer la importancia y las ventajas de TI en las operaciones internas y externas de una empresa, sin duda estas garantizan el buen funcionamiento de los equipos y tienen las aplicaciones al máximo rendimiento, con el fin de facilitar soporte y desarrollo de los procesos de todas las áreas de la empresa.
-
-    .row.justify-content-center.align-items-center.mb-5         
-      .col-lg-10 
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.m_bloque-imgreves.m_bloque-textoreves1(data-aos="flip-down")
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema5/img03.svg')})`}"
-          )
-          .bloque-texto-g__texto.p-5
-            p Los empleados en general también deben recibir capacitaciones en el uso de los aplicativos que maneja, para que puedan desempeñarse adecuadamente en sus funciones y estar familiarizados con el <em>software</em> o el sistema.
+    
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .bloque-texto-a.color-acento-contenido.p-md-5.mb-5.padding_2 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-8.mb-4.mb-lg-0
+              .bloque-texto-a__texto.p-4.p-lg-5
+                p Los empleados en general también deben recibir capacitaciones en el uso de los aplicativos que maneja, para que puedan desempeñarse adecuadamente en sus funciones y estar familiarizados con el <em>software</em> o el sistema.           
+            .col-lg-4
+              img.img-t.mx-auto(src='@/assets/curso/tema5/img03.svg' alt='AvatarTop') 
 
     p.mb-5 Las tecnologías de la información cubren una amplia gama de servicios e industrias, sin ella, sería imposible que las empresas y la sociedad trascienda en el cumplimiento de  sus misiones, amplíen su red y alcancen el éxito, soportando desde procesos simples como la entrada de datos, el mantenimiento de registros, hasta la implementación de operaciones complejas, el mantenimiento de los sistemas de información, la protección de datos, la implementación de los sistemas avanzados, con el propósito de soportar la base tecnológica y aplicaciones claves de las organizaciones.
 
@@ -70,10 +71,10 @@
           .color-fondo__texto 
             | <b>Dentro de cualquier organización es importante reconocer las áreas que soportan la estrategia del negocio, en cada una se debe tener personal calificado para realizar las tareas propias del cargo, a continuación, se detallan las más representativas que soportan las empresas:</b>
 
-    .botones-hover.mb-4
+    .botones-hover.mb-4(data-aos="fade-up-right")
       Botones
     
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-lg-4.col-xl-5.col-xxl-4
         .bg_1
           .row.align-items-center

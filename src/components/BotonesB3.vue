@@ -98,7 +98,7 @@ export default {
 
 .btns
   position: relative
-  height: 300px
+  height: 70px
   &__item
     position: absolute
     background-size: contain
@@ -131,30 +131,30 @@ export default {
     top: 0.5% !important
     left: 2.5% !important
     .btns__text
-      top: 50%
+      top: 30%!important
   .btns_item--1
     top: 0.5% !important
     left: 15.5% !important
     .btns__text
-      top: 140%
+      top: 400%!important
   .btns_item--2
     top: 0.5% !important
     left: 18.3% !important
     .btns__text
-      top: 230%
+      top: 770%!important
   .btns_item--3
     top: 0.5% !important
     left: 21.5% !important
     .btns__text
-      top: 320%
+      top: 1140%!important
   .btns_item--4
     top: 0.5% !important
     left: 31.1% !important
     .btns__text
-      top: 410%
+      top: 1510%!important
   .btns_item--5
     top: 0.5% !important
     left: 45.3% !important
     .btns__text
-      top: 500%
+      top: 1880%!important
 </style>

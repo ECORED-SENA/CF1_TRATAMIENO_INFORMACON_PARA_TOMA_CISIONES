@@ -30,21 +30,21 @@
       .col-lg-6
         .row.justify-content-center
           .col-lg-8
-            figure
+            figure(data-aos="fade-left")
               img(src='@/assets/curso/tema1/img02.svg')
     
     span.etiqueta <b>Con los datos se construye la información, y con la información se construye el éxito estratégico en las empresas,</b>
     | sin el primero, no puedes tener el segundo o el tercero. Un buen negocio se basa en una gran investigación de mercado, que puede analizar todos los datos que su empresa está recopilando actualmente, separando lo útil de lo inútil.
 
     .row.justify-content-center.mb-5
-      .col-lg-5.col-lg.mb-5.mb-lg-0
+      .col-lg-5.col-lg.mb-5.mb-lg-0(data-aos="fade-right")
         .tarjeta-avatar
           img.img120(src='@/assets/curso/tema1/img03.svg' alt='AvatarTop')
           .tarjeta.color_tarjeta1-t1 
             .p-5
               p <b>Los datos son esencialmente los hechos simples y las estadísticas recopiladas durante las operaciones de una empresa,</b> que se pueden utilizar para medir/registrar una amplia gama de actividades empresariales, tanto internas como externas, si bien los datos en sí mismos pueden no ser muy informativos, son la base de todos los informes y, como tales, son cruciales en los negocios.
 
-      .col-lg-5.col-lg.mb-5.mb-lg-0
+      .col-lg-5.col-lg.mb-5.mb-lg-0(data-aos="fade-left")
         .tarjeta-avatar
           img.img120(src='@/assets/curso/tema1/img04.svg' alt='AvatarTop')
           .tarjeta.color-acento-contenido
@@ -53,15 +53,15 @@
     
     .row.justify-content-center.align-items-center.mb-lg-5
       .col-lg-4
-        figure.mb-4.mb-lg-0
+        figure.mb-4.mb-lg-0(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img05.svg')
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         p <b>Para saber cuál es la diferencia entre datos e información,</b> es necesario saber que los datos son hechos y estadísticas en bruto, mientras que la información son datos precisos y oportunos, se organiza con un propósito, se presenta dentro de un contexto que le da significado y relevancia; y puede conducir a un aumento en la comprensión y una disminución en la incertidumbre. La información se crea al interpretar los datos, para ser presentados en un contexto más significativo, permitiendo a una empresa tomar decisiones a partir de estos, permitiendo que la gerencia pueda interpretar la información, proporcionando métricas para determinar mejores formas de interactuar o trabajar con sus clientes. 
-        hr
+        hr(data-aos="fade-right")
 
     p.mb-5 Además, es importante señalar que el valor de la información no radica en sí misma, sino en las acciones que surgen de esta. Por ejemplo, si se presenta un informe donde la información entrega alertas sobre la baja satisfacción del cliente, solo es útil si crea un cambio en la forma como la empresa se relaciona con los clientes. Por lo tanto, la información debe formar parte de un proceso de revisión más amplio dentro del negocio para obtener mejores resultados y aportar al logro de los objetivos estratégicos.
 
-    .row.mb-4
+    .row.mb-4(data-aos="fade-right")
       .col-lg-2.col-xl-3.col-xxl-2
         .bg_1
           .row.align-items-center
@@ -73,10 +73,10 @@
     
     p.mb-5 <b>Es necesario reconocer las siguientes características de los datos, las cuales se detalla a continuación:</b>
 
-    .row.mb-0
+    .row.mb-0(data-aos="fade-up-right")
       BotonesB2
     
-    .row.mb-4
+    .row.mb-4(data-aos="fade-right")
       .col-lg-2.col-xl-3.col-xxl-2
         .bg_1
           .row.align-items-center
@@ -158,7 +158,7 @@
       .col-lg-10 
         p.mb-5 Los sistemas de procesamiento de datos suelen manipular los datos sin procesar para convertirlos en información y, del mismo modo, los sistemas de información suelen tomar datos sin procesar como entrada para producir información como salida. En el contexto del procesamiento de datos, los datos se definen como números o caracteres que representan mediciones del mundo real.
 
-    .row.justify-content-center.mb-5         
+    .row.justify-content-center.mb-5(data-aos="fade-down")         
       .col-lg-10 
         .cajon.color-acento-contenido.p-5.mb-4
           .row.justify-content-center.align-items-center
@@ -184,7 +184,7 @@
               figure
                 img.img-t.mx-auto(src='@/assets/curso/tema1/img12.svg')
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-lg-4.col-xl-5.col-xxl-4
         .bg_1
           .row.align-items-center
@@ -199,30 +199,30 @@
 
     .row.justify-content-center.mt-5.mb-4
       .col-lg-10.col-xl-11
-        figure.mb-5
+        figure.mb-5(data-aos="fade-up")
           img.img-t.mx-auto(src='@/assets/curso/tema1/img13.svg')
         h4 Con el transcurso del tiempo, el hombre ha ideado ciertas herramientas para ayudarlo en el procesamiento de datos. Estos incluyen:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3.mb-4.mb-lg-0
+      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         .bg_2.p-4
           .row.justify-content-center.mb-3
             .col-10
               p.mt-3 <b>Herramientas manuales:</b> como lápiz y papel.
           img.img-t.mx-auto.mt_2(src='@/assets/curso/tema1/img14.svg' alt='AvatarTop')
-      .col-lg-3.mb-4.mb-lg-0
+      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         .bg_3.p-4
           .row.justify-content-center.mb-3
             .col-10
               p.mt-3 <b>Herramientas mecánicas:</b> como archivadores.
           img.img-t.mx-auto.mt_2(src='@/assets/curso/tema1/img15.svg' alt='AvatarTop')
-      .col-lg-3.mb-4.mb-lg-0
+      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-left")
         .bg_2.p-4
           .row.justify-content-center.mb-3
             .col-12
               p.mt-3 <b>Herramientas electromecánicas:</b> como sumadoras y máquinas de escribir.
           img.img-t.mx-auto(src='@/assets/curso/tema1/img16.svg' alt='AvatarTop')
-      .col-lg-3
+      .col-lg-3(data-aos="fade-left")
         .bg_3.p-4
           .row.justify-content-center.mb-3
             .col-10
@@ -231,7 +231,7 @@
 
     p.mb-5 Muchas personas asocian inmediatamente el procesamiento de datos con las computadoras, pero esta no es la única herramienta utilizada para el procesamiento de datos; también se puede hacer sin computadoras. Sin embargo, las computadoras han superado a las personas en estas tareas.
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-lg-3.col-xl-4.col-xxl-3
         .bg_1
           .row.align-items-center
@@ -312,7 +312,7 @@
                 h4 Mínimo desarchivo 
                 | La principal dificultad no tiene que ver con el archivo sino con la búsqueda de los documentos. El archivo incorrecto causa retrasos en la ubicación del documento deseado. Por lo tanto, solo el personal autorizado puede tener acceso a los archivos.
       .col-lg-5
-        figure
+        figure(data-aos="fade-left")
           img.img-t.mx-auto(src='@/assets/curso/tema1/img19.png')
 
     Separador
@@ -323,7 +323,7 @@
     p.mb-5 La información es uno de los activos más importantes en las empresas, por esto es necesario implementar controles a esta, la mayoría de los departamentos de donde están los sistemas de información permanecen centralizados, con el fin de brindar servicios a las unidades de negocios de forma organizada y protegiendo la información. Para esto existen métodos que ayudan a proteger y evaluar las vulnerabilidades asociadas, tales como:
 
     .row.mb-5.justify-content-center
-      .col-sm-6.col-xl-5.mb-4.mb-sm-0.border_tar-t1-2
+      .col-sm-6.col-xl-5.mb-4.mb-sm-0.border_tar-t1-2(data-aos="fade-right")
         .tarjeta.tarjeta-slide.derecha.color_tarjeta1-t1-2.p-5(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img20.svg')})`}")
@@ -331,7 +331,7 @@
               h3 Procedimiento de evaluación de riesgos
               p Es una evaluación metódica de la probabilidad de pérdidas debido a exposiciones de valores y el alcance de estas pérdidas. El riesgo se define como el producto de la cantidad que se puede perder debido a la exposición de un valor y la probabilidad de que tal pérdida ocurra. Esta probabilidad se puede estimar por la frecuencia de tales ocurrencias en el pasado.
 
-      .col-sm-6.col-xl-5
+      .col-sm-6.col-xl-5(data-aos="fade-left")
         .tarjeta.tarjeta-slide.izquierda.color-primario.p-5(@mouseover="indicadorTarjetaSlide = false")
           .tarjeta-slide__contenedor
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img21.svg')})`}")
@@ -341,7 +341,7 @@
 
     p.mb-5.mt-5.mt-lg-0 Los controles en los sistemas de información se implementan para garantizar operaciones seguras, para así salvaguardar los activos y los datos almacenados en estos sistemas, asegurando que las aplicaciones logren sus objetivos de manera eficiente, para esto las empresas deben implementar un conjunto de políticas, procedimientos y medidas tecnológicas, que aporten esquemas de control, que pueden diseñarse para:
       
-    .row.justify-content-center.mb-5         
+    .row.justify-content-center.mb-5(data-aos="fade-down")         
       .col-lg-8
         .cajon.color-acento-contenido.p-5.mb-4
           .row.justify-content-center.align-items-center
@@ -362,7 +362,7 @@
 
     p.mb-5 <b>Los controles de los sistemas de información se clasifican en:</b>
 
-    .row.mb-5.justify-content-center
+    .row.mb-5.justify-content-center(data-aos="fade-right")
       .col-md-8.mb-5.mb-md-0
         LineaTiempoD.color-acento-contenido
           p.text-small(numero="1" titulo="Controles generales") Son los que se aplican a la totalidad de la actividad de sistemas de información de una organización, cubren todos los sistemas de una organización o una de sus subunidades.

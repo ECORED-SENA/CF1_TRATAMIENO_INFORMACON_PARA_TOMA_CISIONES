@@ -121,6 +121,8 @@ export default {
 .btns
   position: relative
   height: 600px
+  @media (max-width: $bp-max-md)
+    height: 180px
   &__item
     position: absolute
     background-size: contain
@@ -148,45 +150,45 @@ export default {
     width: 7% !important
     padding: 7%!important
   .btns_item--0
-    top: 2% !important
+    top: 10% !important
     left: 7% !important
     .btns__text
       left: 300%
   .btns_item--1
-    top: 2% !important
+    top: 10% !important
     left: 25% !important
     .btns__text
       left: 180%
   .btns_item--2
-    top: 2% !important
+    top: 10% !important
     left: 43% !important
   .btns_item--3
-    top: 2% !important
+    top: 10% !important
     left: 61% !important
     .btns__text
       left: -50%
   .btns_item--4
-    top: 2% !important
+    top: 10% !important
     left: 79% !important
     .btns__text
       left: -200%
   .btns_item--5
-    top: 12% !important
+    top: 42% !important
     left: 16% !important
     .btns__text
       left: 250%
   .btns_item--6
-    top: 12% !important
+    top: 42% !important
     left: 35% !important
     .btns__text
       left: 100%
   .btns_item--7
-    top: 12% !important
+    top: 42% !important
     left: 53% !important
     .btns__text
       left: -10%
   .btns_item--8
-    top: 12% !important
+    top: 42% !important
     left: 71% !important
     .btns__text
       left: -150%
