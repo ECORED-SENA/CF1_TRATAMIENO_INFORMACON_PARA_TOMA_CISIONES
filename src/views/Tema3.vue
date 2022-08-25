@@ -119,7 +119,7 @@
       .col-lg-7.up.bg_cajon-color2
         .color-fondo.bg-color(data-aos="fade-down")
           .color-fondo__texto   
-            | Antes de realizar cualquier modificación en una celda se debe seleccionar con el cursor, para seleccionar la celda sólo se debe hacer clic sobre esta, para seleccionar un conjunto de celdas adyacentes, se debe dejar el clic sostenido en la primera celda a desplazar el mouse los hasta la última celda a seleccionar y después soltarlo, las celdas seleccionadas aparecerán con un marco alrededor y cambiarán de color.
+            | Antes de realizar cualquier modificación en una celda se debe seleccionar con el cursor, para seleccionar la celda solo se debe hacer clic sobre esta, para seleccionar un conjunto de celdas adyacentes, se debe dejar el clic sostenido en la primera celda a desplazar el mouse hasta la última celda a seleccionar y después soltarlo, las celdas seleccionadas aparecerán con un marco alrededor y cambiarán de color.
             br
             br
             | Para realizar la selección de una columna se debe situar el cursor sobre el identificativo de la columna en la parte superior de la hoja, y seleccionar la letra que representa la columna. De igual manera para seleccionar una fila se debe situar el cursor sobre el identificativo izquierdo de la fila y dar clic.

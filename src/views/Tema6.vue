@@ -89,7 +89,7 @@
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
       h2 6.2	Tratamiento y procesamiento de datos
 
-    p.mb-4 Tratamiento de datos está compuesto el acceso, la recopilación, el uso, el procesamiento, el almacenamiento, el intercambio, la distribución, la transferencia, la divulgación, la seguridad, la destrucción o la eliminación de cualquier información o datos personales, sensibles o confidenciales, ya sea en formato electrónico o en cualquier otra forma o medio.
+    p.mb-4 Tratamiento de datos está compuesto por el acceso, la recopilación, el uso, el procesamiento, el almacenamiento, el intercambio, la distribución, la transferencia, la divulgación, la seguridad, la destrucción o la eliminación de cualquier información o datos personales, sensibles o confidenciales, ya sea en formato electrónico o en cualquier otra forma o medio.
 
     .row.justify-content-center.mb-5
       .col-lg-8.bg_cajon-color4.ms-3
@@ -113,7 +113,7 @@
             | Tratar de clasificar los datos en patrones comúnmente conocidos es de gran ayuda y está íntimamente relacionado con el tratamiento estadístico de los datos. Esto se debe a que la distribución de probabilidad normal ocurre con mucha frecuencia y son las distribuciones subyacentes en la mayoría de los experimentos médicos, sociales y físicos.
             br
             br
-            | Por lo tanto, si se sabe que un tamaño de muestra dado tiene una distribución normal, entonces el tratamiento estadístico de los datos se facilita para el investigador, ya que ya tendría mucha teoría de respaldo en este aspecto. Sin embargo, siempre se debe tener cuidado de no asumir que todos los datos se distribuyen normalmente, y siempre se debe confirmar con las pruebas adecuadas.
+            | Por lo tanto, si se sabe que un tamaño de muestra dado tiene una distribución normal, entonces el tratamiento estadístico de los datos se facilita para el investigador, ya que tendría mucha teoría de respaldo en este aspecto. Sin embargo, siempre se debe tener cuidado de no asumir que todos los datos se distribuyen normalmente, y siempre se debe confirmar con las pruebas adecuadas.
       .col-lg-4
         .row
           .col-lg-6

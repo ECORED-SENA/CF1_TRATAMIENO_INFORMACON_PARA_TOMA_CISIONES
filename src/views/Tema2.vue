@@ -65,11 +65,11 @@
                     i.fas.fa-caret-right
                     h4.m_block.text-white.mt_1 Tipos y Características
 
-      p.mb-5 Existen tantas opciones de tecnología, herramientas y plataformas que ayudan a hacer crecer los negocios, por eso es importante identificar cual es la mejor opción que se puede implementar en cada contexto organizacional.
+      p.mb-5 Existen tantas opciones de tecnología, herramientas y plataformas que ayudan a hacer crecer los negocios, por eso es importante identificar cuál es la mejor opción que se puede implementar en cada contexto organizacional.
 
       .row.justify-content-center
         .col-lg-8(data-aos="fade-down")
-          h5.text-center A continuación, se presentan los tipos herramientas tecnológicas que pueden ayudar al desarrollo y crecimiento de en los contextos empresariales, con el fin de ahorrar tiempo y dinero:
+          h5.text-center A continuación, se presentan los tipos de herramientas tecnológicas que pueden ayudar al desarrollo y crecimiento en los contextos empresariales, con el fin de ahorrar tiempo y dinero:
 
       .row.justify-content-center.mb-4
         .col-lg-6
@@ -222,8 +222,6 @@
         figure(data-aos="fade-left")
           img.img-t.mx-auto(src='@/assets/curso/tema2/img14.svg') 
 
-    p.mb-4 Cada día se debe mejorar sus habilidades de entrada de datos, para esto hay diferentes acciones que se pueden realizar, por lo cual se presentan algunos consejos que pueden resultar útiles para este fin: 
-
     .row.mb-5.justify-content-center
       .col-md-4.mb-4.mb-lg-0
         figure(data-aos="fade-right")
@@ -234,7 +232,7 @@
           
           p.text-small.mt-3.mt-lg-0(numero="2" titulo="Mejore el espacio en el escritorio") La entrada de datos requiere largos períodos de tiempo en la misma posición, por eso es importante modificar el espacio del escritorio para que sea más ergonómico, contar con una silla cómoda con soporte lumbar que se pueda girar y tenga ajustes de altura. Los monitores de las computadoras deben estar a la altura de los ojos con un brillo mínimo y el monitor debe colocarse cerca del mouse. Los monitores duales también pueden ayudar con la verificación de hechos, la velocidad de entrada de datos, la eficiencia y la productividad.
           
-          p.text-small.mt-3.mt-lg-0(numero="3" titulo="Utilice herramientas de escritura en línea") Existen varios programas en línea permiten probar las habilidades de mecanografía actuales para que pueda identificar los aspectos de mejora, estas permiten practicar y aumentar la velocidad y eficiencia.    
+          p.text-small.mt-3.mt-lg-0(numero="3" titulo="Utilice herramientas de escritura en línea") Existen varios programas en línea que permiten probar las habilidades de mecanografía actuales para que pueda identificar los aspectos de mejora, estas permiten practicar y aumentar la velocidad y eficiencia.    
           
           p.text-small.mt-3.mt-lg-0(numero="4" titulo="<em>Hacks</em> de entrada de datos maestros") Se pueden usar atajos con el teclado en algunos programas, estos permiten ahorrar tiempo. Por ejemplo, puede usar las teclas TAB y ENTER en Excel para ingresar información que se ha escrito anteriormente. Se pueden encontrar muchos trucos de hojas de cálculo y teclados en línea o puede intentar pedir al supervisor otras recomendaciones.
 

@@ -14,7 +14,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema5/img01.png')})`}"
           )
           .bloque-texto-g__texto.p-5
-            p Todas las empresas, necesitan de los servicios de las áreas de sistemas y tecnologías de la información, con el fin de aumentar la productividad, estas áreas pueden tener personal propio o subcontratado,  son los responsables de satisfacer las necesidades computacionales  y de soporte técnico de las aplicaciones del negocio, contables y las ofimáticas, permitiendo que las empresas sea más competitivas, por lo cual es imprescindible mantenerse actualizadas sobre las últimas tendencias tecnológicas emergentes.
+            p Todas las empresas, necesitan de los servicios de las áreas de sistemas y tecnologías de la información, con el fin de aumentar la productividad, estas áreas pueden tener personal propio o subcontratado,  son los responsables de satisfacer las necesidades computacionales  y de soporte técnico de las aplicaciones del negocio, contables y las ofimáticas, permitiendo que las empresas sean más competitivas, por lo cual es imprescindible mantenerse actualizadas sobre las últimas tendencias tecnológicas emergentes.
 
     p Los clientes prefieren trabajar con empresas capaces de mantenerse al día con las tendencias tecnológicas. Ser muy consciente de la importancia de los servicios de soporte de TI, en particular los cambios grandes y pequeños en su estructura general, junto con sus demandas y costos, transmite un sentido de confiabilidad y dedicación al tiempo que asegura operaciones más optimizadas.
 
@@ -28,7 +28,7 @@
               img(src='@/assets/curso/tema5/img02.svg', alt='Texto que describa la imagen')
 
           .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="4.8%" y="36%" numero="1")
-            p Dar soporte informático a todas áreas que lo requieran, atendiendo de los usuarios (consultas, resolución de problemas, preguntas frecuentes, asesoría técnica, información general).
+            p Dar soporte informático a todas las áreas que lo requieran, atendiendo de los usuarios (consultas, resolución de problemas, preguntas frecuentes, asesoría técnica, información general).
 
           .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="89.8%" y="33.6%" numero="2")
             p Realizar mantenimiento correctivo y preventivo en los equipos de cómputo.
@@ -49,7 +49,7 @@
             p Evaluar las necesidades de recursos como  memorias, discos, CPUs y aprovisionarse en caso de ser necesario.
 
           .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="85.2%" y="67%" numero="8")
-            p Hacer validaciones de conectividad de las redes datos.
+            p Hacer validaciones de conectividad de las redes de datos.
 
     p.mb-5 Es necesario reconocer la importancia y las ventajas de TI en las operaciones internas y externas de una empresa, sin duda estas garantizan el buen funcionamiento de los equipos y tienen las aplicaciones al máximo rendimiento, con el fin de facilitar soporte y desarrollo de los procesos de todas las áreas de la empresa.
     

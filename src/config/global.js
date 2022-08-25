@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Tratamiento de la información y toma de decisiones',
     descripcionCurso:
-      'En este componente se abordarán temáticas correspondientes a la estructura general del procesamiento de información como elemento fundamental en cuanto a la toma de decisiones, teniendo como base la implementación los sistemas de información a través de las herramientas tecnológicas y ofimáticas aplicados bajo los lineamientos normativos vigentes.',
+      'En este componente se abordarán temáticas correspondientes a la estructura general del procesamiento de información como elemento fundamental en cuanto a la toma de decisiones, teniendo como base la implementación de los sistemas de información a través de las herramientas tecnológicas y ofimáticas aplicados bajo los lineamientos normativos vigentes.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -172,7 +172,7 @@ export default {
     {
       tema: 'Herramientas tecnológicas',
       referencia:
-        'ONiAd – Publicidad [ONiAd - Publicidad Programática]. (2019, 1 de agosto). Programática. [vídeo]. Yotube.',
+        'ONiAd – Publicidad [ONiAd - Publicidad Programática]. 10 HERRAMIENTAS tecnológicas para tu empresa (2019, 1 de agosto). Programática. [vídeo]. Yotube.',
       tipo: 'Video',
       link: 'https://youtu.be/QmBMwydWEeg',
     },
@@ -278,7 +278,7 @@ export default {
     },
     {
       referencia:
-        'Norma Técnica Colombiana. (2008). Sistems de gestión de la calidad requisitos NTC-ISO 9001. Acecep.',
+        'Norma Técnica Colombiana. (2008). Sistemas de gestión de la calidad requisitos NTC-ISO 9001. Acecep.',
       link: 'https://www.cecep.edu.co/documentos/calidad/ISO-9001-2008.pdf',
     },
     {

@@ -7,7 +7,7 @@
         span 7
       h1(data-aos="fade-right") Normatividad
 
-    p El campo de la seguridad y salud en el trabajo establece estándares para ordenar la eliminación, mitigación o sustitución de los peligros en el lugar de trabajo, donde se cubren no sólo las disposiciones de primeros auxilios y la operación segura de maquinaria pesada, sino también la prevención de infecciones, las mejores prácticas ergonómicas y los métodos para responder a la violencia en el lugar de trabajo.
+    p El campo de la seguridad y salud en el trabajo establece estándares para ordenar la eliminación, mitigación o sustitución de los peligros en el lugar de trabajo, donde se cubren no solo las disposiciones de primeros auxilios y la operación segura de maquinaria pesada, sino también la prevención de infecciones, las mejores prácticas ergonómicas y los métodos para responder a la violencia en el lugar de trabajo.
 
     p(data-aos="fade-left") <b>En el siguiente video se explica en qué consiste el sistema de gestión de la seguridad y salud en el trabajo:</b>
 
@@ -85,7 +85,7 @@
                 img.img-t.mx-auto(src='@/assets/curso/tema7/img14.png', alt='Texto que describa la imagen')
             .col-lg-6
               p <b>Resolución 1565</b>
-              p Está expide la guía metodológica para la elaboración del plan estratégico de seguridad vial.
+              p Esta expide la guía metodológica para la elaboración del plan estratégico de seguridad vial.
               p <b>Resolución 3368</b>
               p Modifica la resolución 1409 del año 2012 con el fin de entregar definiciones de coordinador, entrenador en alturas y además establece el requerimiento de certificado de competencias o capacitación de trabajo realizado en alturas.
               p <b>Decreto 1507</b>
@@ -109,7 +109,7 @@
               p <b>Decreto 171</b>
               p En este se reglamenta la transición para la implementación del sistema de gestión de la seguridad y salud en el trabajo, donde todos los empleadores los contratantes de cualquier modalidad deberán sustituir el programa de salud ocupacional por el SGSST.
               p <b>Resolución 974</b>
-              p Aporta el formulario único de afiliación y registro de novedades en al sistema general en seguridad social en salud, aplica para entidades vinculadas al sector salud.
+              p Aporta el formulario único de afiliación y registro de novedades al sistema general de seguridad social en salud, aplica para entidades vinculadas al sector salud.
               p <b>Decreto 1563</b>
               p En este se establece la regla para la afiliación voluntaria de los trabajadores independientes que devenguen más de 1 SMMLV y el pago de aportes de ARL, mediante la planilla integrada de liquidación de aportes.
               p <b>Resolución 4927</b>
@@ -123,7 +123,7 @@
               p <b>Resolución 1111</b>
               p Se define los estándares mínimos del SGSST para empleadores y contratantes, esta incluye normas, requisitos y procedimientos obligatorios con que se verifica, controla que se cumplan las condiciones básicas para el desarrollo de actividades.
               p <b>Decreto 52</b>
-              p Se modifica la fecha en que todos los empleadores y contratantes de personal bajo cualquier modalidad deberán sustituir el programa de salud ocupacional por el SGSST, ahora a partir del 1 junio 2017 se inicia de manera progresiva y sistemática la ejecución las fases de implementación.
+              p Se modifica la fecha en que todos los empleadores y contratantes de personal bajo cualquier modalidad deberán sustituir el programa de salud ocupacional por el SGSST, ahora a partir del 1 de junio 2017 se inicia de manera progresiva y sistemática la ejecución de las fases de implementación.
           
           .row(titulo="2018" subtitulo="")
             .col-lg-2.mb-4.mb-lg-0
@@ -132,6 +132,11 @@
             .col-lg-6
               p <b>Resolución 3310</b>
               p Se adopta el formulario único para reporte de novedades al sistema de riesgos laborales.
+              
+          .row(titulo="2019" subtitulo="")
+            .col-lg-2.mb-4.mb-lg-0
+            
+            .col-lg-6
               p <b>Resolución 0312</b>
               p En esta se deroga la Resolución 1111 de 2017,  definiendo nuevos estándares mínimos del SGSST.
 
@@ -140,7 +145,7 @@
     #t_7_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
       h2 7.1	Seguridad y salud en el trabajo (posturas)
 
-    p.mb-4 La mala postura en el lugar de trabajo es una de las principales causas de dolor de espalda, además el estrés en el lugar de trabajo y puede provocar lesiones por esfuerzos repetitivos. Esto puede dar como resultado una mala salud de los empleados,  que en última instancia, conducirá a una reducción de la productividad, pérdida de tiempo y mayores costos comerciales.
+    p.mb-4 La mala postura en el lugar de trabajo es una de las principales causas de dolor de espalda, además, el estrés en el lugar de trabajo, puede provocar lesiones por esfuerzos repetitivos. Esto puede dar como resultado una mala salud de los empleados,  que en última instancia, conducirá a una reducción de la productividad, pérdida de tiempo y mayores costos comerciales.
 
     h5.mb-5(data-aos="fade-left") La aplicación de las técnicas de postura y ergonomía en el lugar de trabajo ayudan a mejorar el entorno de trabajo y el bienestar en la jornada normal de trabajo.
 
@@ -174,7 +179,7 @@
                   p.m-0.ms-3 Compresión de estructuras discales y articulares.
                 li
                   i.fas.far.fa-check
-                  p.m-0.ms-3 Compresión/espacio reducido para que los nervios atraviesan el cuerpo. 
+                  p.m-0.ms-3 Compresión/espacio reducido para los nervios que atraviesan el cuerpo. 
                 li
                   i.fas.far.fa-check
                   p.m-0.ms-3 Reducción del flujo sanguíneo a los músculos que resulta en un aumento de la fatiga.

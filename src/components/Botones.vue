@@ -29,7 +29,7 @@
       .tarjeta-botones.bg-acento-botones.p-5(v-else-if="selected === 2")
         img.img-t.mb-4(src='@/assets/curso/tema5/img16.svg')
         h4 Legal
-        p Las empresas de control normativo o legal son las responsables de los identificar oportunamente los fallos e incumplimientos en los proceso, servicios y contratos, con el fin de controlar el riesgo operativo, todas las organizaciones requieren operar bajo controles de acción legal, para evitar sanciones o gestiones legales.
+        p Las empresas de control normativo o legal son las responsables de identificar oportunamente los fallos e incumplimientos en los proceso, servicios y contratos, con el fin de controlar el riesgo operativo, todas las organizaciones requieren operar bajo controles de acción legal, para evitar sanciones o gestiones legales.
 
       .tarjeta-botones.bg-acento-botones.p-5(v-else-if="selected === 3")
         img.img-t.mb-4(src='@/assets/curso/tema5/img17.svg')

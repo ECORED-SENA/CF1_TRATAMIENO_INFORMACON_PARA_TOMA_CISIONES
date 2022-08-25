@@ -9,7 +9,7 @@
 
     .row.align-items-center.mb-4
       .col-lg-7
-        p.mb-5 La toma de decisiones es una tarea ardua, que requiere de decisiones acertadas para lograr los objetivos estratégicos de la organización, esta es una responsabilidad muy importante para su organización, en la cual debe aplicar algunas pautas efectivas para este propósito.
+        p.mb-5 La toma de decisiones es una tarea ardua, que requiere decisiones, acertadas para lograr los objetivos estratégicos de la organización, esta es una responsabilidad muy importante para su organización, en la cual debe aplicar algunas pautas efectivas para este propósito.
         .cajon.color-acento-botones.p-4.mb-4(data-aos="fade-right")
           h5.ms-2 En las organizaciones se toman decisiones para el logro de los planes de largo y corto plazo, en las que se requieren políticas y estrategias para hacer crecer el negocio.
         p El éxito de un ejecutivo depende de su capacidad para tomar de decisiones la decisión correcta en el momento adecuado, garantizar la implementación efectiva, además de estar en la capacidad de resolver las situaciones o problemas que requieran solución por situaciones inesperadas. 
@@ -25,16 +25,16 @@
               img(src='@/assets/curso/tema4/img02.svg', alt='Texto que describa la imagen')
 
           .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="4.8%" y="40%")
-            p Habilidad para tomar desiciones, identificar definir el problema.
+            p Habilidad para tomar decisiones, identificar definir el problema.
 
           .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="20.2%" y="77.4%")
             p Diseñar el plan de acción.
           
           .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="50%" y="92.3%")
-            p Capacidad para solucion de problemas, para garantizar el logro de objetivos.
+            p Capacidad para solución de problemas, para garantizar el logro de objetivos.
 
           .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="80%" y="72.5%")
-            p Selección e implemenetación de altenativas para el logro de objetivos.
+            p Selección e implementación de alternativas para el logro de objetivos.
 
           .tarjeta.color-acento-botones.color_tar-imginfografica-t4.p-3(x="95%" y="41.6%")
             p Tener claras las alternativas y validarlas.
@@ -123,7 +123,7 @@
         .row.justify-content-around
           .col-md-7.mb-4.mb-md-0
             h4(data-aos="fade-right") Fijación de precios
-            p(data-aos="fade-right") Al momento de tomar decisiones en la fijación de precios, se deberán tener presente las regulaciones vigentes para tal fin, como lo es el Decreto 0863 DE 1988 y la Ley número 3466 de 1982, donde se regula el este accionar y se dictan otras disposiciones. Con el fin de controlar la manipulación de la oferta y la demanda y regular los precios.      
+            p(data-aos="fade-right") Al momento de tomar decisiones en la fijación de precios, se deberán tener presente las regulaciones vigentes para tal fin, como lo es el Decreto 0863 DE 1988 y la Ley número 3466 de 1982, donde se regula este accionar y se dictan otras disposiciones. Con el fin de controlar la manipulación de la oferta y la demanda y regular los precios.      
           .col-md-3
             figure
               img.img-t.mx-auto(data-aos="fade-left")(src='@/assets/curso/tema4/img13.svg', alt='Texto que describa la imagen')
