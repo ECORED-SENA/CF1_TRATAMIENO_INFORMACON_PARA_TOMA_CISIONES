@@ -9,10 +9,10 @@
 
     .row.align-items-center.mb-4
       .col-lg-7
-        p.mb-5 La toma de decisiones es una tarea ardua, que requiere decisiones, acertadas para lograr los objetivos estratégicos de la organización, esta es una responsabilidad muy importante para su organización, en la cual debe aplicar algunas pautas efectivas para este propósito.
+        p.mb-5 La toma de decisiones es una tarea ardua, que requiere de decisiones acertadas para lograr los objetivos estratégicos de la organización, esta es una responsabilidad muy importante para su organización, en la cual debe aplicar algunas pautas efectivas para este propósito.
         .cajon.color-acento-botones.p-4.mb-4(data-aos="fade-right")
           h5.ms-2 En las organizaciones se toman decisiones para el logro de los planes de largo y corto plazo, en las que se requieren políticas y estrategias para hacer crecer el negocio.
-        p El éxito de un ejecutivo depende de su capacidad para tomar de decisiones la decisión correcta en el momento adecuado, garantizar la implementación efectiva, además de estar en la capacidad de resolver las situaciones o problemas que requieran solución por situaciones inesperadas. 
+        p El éxito de un ejecutivo depende de su capacidad para tomar decisiones, la decisión correcta en el momento adecuado, garantizar la implementación efectiva, además de estar en la capacidad de resolver las situaciones o problemas que requieran solución por situaciones inesperadas. 
       .col-lg-4.mb-5
         figure(data-aos="fade-left")
           img(src='@/assets/curso/tema4/img01.png', alt='AvatarTop')
